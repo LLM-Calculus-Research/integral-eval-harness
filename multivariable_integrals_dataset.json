@@ -1,0 +1,2202 @@
+[
+    {
+        "id": 1,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "2*x**2 + 8*x + 4",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 2 x^{2} + 8 x + 4 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{2 x^{3}}{3} + 4 x^{2} + 4 x"
+    },
+    {
+        "id": 2,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "7*x**2 + 9*x + 3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 7 x^{2} + 9 x + 3 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3}}{3} + \\frac{9 x^{2}}{2} + 3 x"
+    },
+    {
+        "id": 3,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "6*x**2 + 5*x + 1",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 6 x^{2} + 5 x + 1 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{3} + \\frac{5 x^{2}}{2} + x"
+    },
+    {
+        "id": 4,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "4*x**2 + 10*x + 4",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 4 x^{2} + 10 x + 4 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3}}{3} + 5 x^{2} + 4 x"
+    },
+    {
+        "id": 5,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "8*x**2 + 2*x + 2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 8 x^{2} + 2 x + 2 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{8 x^{3}}{3} + x^{2} + 2 x"
+    },
+    {
+        "id": 6,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "10*x**2 + 5*x + 7",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 10 x^{2} + 5 x + 7 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{10 x^{3}}{3} + \\frac{5 x^{2}}{2} + 7 x"
+    },
+    {
+        "id": 7,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "9*x**2 + 10*x + 3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 9 x^{2} + 10 x + 3 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{3} + 5 x^{2} + 3 x"
+    },
+    {
+        "id": 8,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "10*x**2 + 7*x + 10",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 10 x^{2} + 7 x + 10 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{10 x^{3}}{3} + \\frac{7 x^{2}}{2} + 10 x"
+    },
+    {
+        "id": 9,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "6*x**2 + 4*x + 1",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 6 x^{2} + 4 x + 1 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{3} + 2 x^{2} + x"
+    },
+    {
+        "id": 10,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "x**2 + 6*x + 2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int x^{2} + 6 x + 2 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3}}{3} + 3 x^{2} + 2 x"
+    },
+    {
+        "id": 11,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "7*x**2 + 3*x + 4",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 7 x^{2} + 3 x + 4 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3}}{3} + \\frac{3 x^{2}}{2} + 4 x"
+    },
+    {
+        "id": 12,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "3*x**2 + 8*x + 7",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 3 x^{2} + 8 x + 7 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{3} + 4 x^{2} + 7 x"
+    },
+    {
+        "id": 13,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "9*x**2 + 3*x + 1",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 9 x^{2} + 3 x + 1 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{3} + \\frac{3 x^{2}}{2} + x"
+    },
+    {
+        "id": 14,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "8*x**2 + 10*x + 4",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 8 x^{2} + 10 x + 4 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{8 x^{3}}{3} + 5 x^{2} + 4 x"
+    },
+    {
+        "id": 15,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "x**2 + 8*x + 3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int x^{2} + 8 x + 3 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3}}{3} + 4 x^{2} + 3 x"
+    },
+    {
+        "id": 16,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "5*x**2 + 3*x + 8",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 5 x^{2} + 3 x + 8 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{3}}{3} + \\frac{3 x^{2}}{2} + 8 x"
+    },
+    {
+        "id": 17,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "4*x**2 + 9*x + 10",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 4 x^{2} + 9 x + 10 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3}}{3} + \\frac{9 x^{2}}{2} + 10 x"
+    },
+    {
+        "id": 18,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "10*x**2 + 9*x + 7",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 10 x^{2} + 9 x + 7 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{10 x^{3}}{3} + \\frac{9 x^{2}}{2} + 7 x"
+    },
+    {
+        "id": 19,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "10*x**2 + 8*x + 6",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 10 x^{2} + 8 x + 6 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{10 x^{3}}{3} + 4 x^{2} + 6 x"
+    },
+    {
+        "id": 20,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "7*x**2 + 4*x + 4",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 7 x^{2} + 4 x + 4 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3}}{3} + 2 x^{2} + 4 x"
+    },
+    {
+        "id": 21,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "10*x**2 + 2*x + 2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 10 x^{2} + 2 x + 2 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{10 x^{3}}{3} + x^{2} + 2 x"
+    },
+    {
+        "id": 22,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "5*x**2 + 2*x + 8",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 5 x^{2} + 2 x + 8 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{3}}{3} + x^{2} + 8 x"
+    },
+    {
+        "id": 23,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "10*x**2 + 5*x + 10",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 10 x^{2} + 5 x + 10 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{10 x^{3}}{3} + \\frac{5 x^{2}}{2} + 10 x"
+    },
+    {
+        "id": 24,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "4*x**2 + 10*x + 1",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 4 x^{2} + 10 x + 1 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3}}{3} + 5 x^{2} + x"
+    },
+    {
+        "id": 25,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "3*x**2 + 7*x + 1",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 3 x^{2} + 7 x + 1 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{3} + \\frac{7 x^{2}}{2} + x"
+    },
+    {
+        "id": 26,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "4*x**2 + 7*x + 3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 4 x^{2} + 7 x + 3 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3}}{3} + \\frac{7 x^{2}}{2} + 3 x"
+    },
+    {
+        "id": 27,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "10*x**2 + 5*x + 2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 10 x^{2} + 5 x + 2 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{10 x^{3}}{3} + \\frac{5 x^{2}}{2} + 2 x"
+    },
+    {
+        "id": 28,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "8*x**2 + 8*x + 10",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 8 x^{2} + 8 x + 10 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{8 x^{3}}{3} + 4 x^{2} + 10 x"
+    },
+    {
+        "id": 29,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "x**2 + 10*x + 2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int x^{2} + 10 x + 2 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3}}{3} + 5 x^{2} + 2 x"
+    },
+    {
+        "id": 30,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "3*x**2 + 2*x + 4",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 3 x^{2} + 2 x + 4 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{3} + x^{2} + 4 x"
+    },
+    {
+        "id": 31,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "7*x**2 + 7*x + 9",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 7 x^{2} + 7 x + 9 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3}}{3} + \\frac{7 x^{2}}{2} + 9 x"
+    },
+    {
+        "id": 32,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "2*x**2 + 2*x + 1",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 2 x^{2} + 2 x + 1 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{2 x^{3}}{3} + x^{2} + x"
+    },
+    {
+        "id": 33,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "6*x**2 + 4*x + 1",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 6 x^{2} + 4 x + 1 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{3} + 2 x^{2} + x"
+    },
+    {
+        "id": 34,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "8*x**2 + 7*x + 4",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 8 x^{2} + 7 x + 4 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{8 x^{3}}{3} + \\frac{7 x^{2}}{2} + 4 x"
+    },
+    {
+        "id": 35,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "x**2 + 2*x + 6",
+        "prompt_latex": "Calculate the integral of the following expression: \\int x^{2} + 2 x + 6 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3}}{3} + x^{2} + 6 x"
+    },
+    {
+        "id": 36,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "9*x**2 + 10*x + 3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 9 x^{2} + 10 x + 3 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{3} + 5 x^{2} + 3 x"
+    },
+    {
+        "id": 37,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "9*x**2 + 9*x + 2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 9 x^{2} + 9 x + 2 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{3} + \\frac{9 x^{2}}{2} + 2 x"
+    },
+    {
+        "id": 38,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "7*x**2 + 3*x + 10",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 7 x^{2} + 3 x + 10 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3}}{3} + \\frac{3 x^{2}}{2} + 10 x"
+    },
+    {
+        "id": 39,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "3*x**2 + 9*x + 8",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 3 x^{2} + 9 x + 8 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{3} + \\frac{9 x^{2}}{2} + 8 x"
+    },
+    {
+        "id": 40,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "6*x**2 + x + 3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 6 x^{2} + x + 3 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{3} + \\frac{x^{2}}{2} + 3 x"
+    },
+    {
+        "id": 41,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "9*x**2 + 7*x + 7",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 9 x^{2} + 7 x + 7 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{3} + \\frac{7 x^{2}}{2} + 7 x"
+    },
+    {
+        "id": 42,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "5*x**2 + 3*x + 5",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 5 x^{2} + 3 x + 5 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{3}}{3} + \\frac{3 x^{2}}{2} + 5 x"
+    },
+    {
+        "id": 43,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "10*x**2 + 7*x + 4",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 10 x^{2} + 7 x + 4 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{10 x^{3}}{3} + \\frac{7 x^{2}}{2} + 4 x"
+    },
+    {
+        "id": 44,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "4*x**2 + 5*x + 5",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 4 x^{2} + 5 x + 5 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3}}{3} + \\frac{5 x^{2}}{2} + 5 x"
+    },
+    {
+        "id": 45,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "x**2 + 3*x + 2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int x^{2} + 3 x + 2 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3}}{3} + \\frac{3 x^{2}}{2} + 2 x"
+    },
+    {
+        "id": 46,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "7*x**2 + 4*x + 9",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 7 x^{2} + 4 x + 9 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3}}{3} + 2 x^{2} + 9 x"
+    },
+    {
+        "id": 47,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "7*x**2 + 10*x + 3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 7 x^{2} + 10 x + 3 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3}}{3} + 5 x^{2} + 3 x"
+    },
+    {
+        "id": 48,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "4*x**2 + 5*x + 2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 4 x^{2} + 5 x + 2 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3}}{3} + \\frac{5 x^{2}}{2} + 2 x"
+    },
+    {
+        "id": 49,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "x**2 + 9*x + 1",
+        "prompt_latex": "Calculate the integral of the following expression: \\int x^{2} + 9 x + 1 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3}}{3} + \\frac{9 x^{2}}{2} + x"
+    },
+    {
+        "id": 50,
+        "category": "Polynomial",
+        "variables_order": [
+            "x"
+        ],
+        "expression_str": "3*x**2 + 2*x + 4",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 3 x^{2} + 2 x + 4 dx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{3} + x^{2} + 4 x"
+    },
+    {
+        "id": 51,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "9*x**2 + 5*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 9 x^{2} + 5 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{3} y + \\frac{5 x y^{3}}{3}"
+    },
+    {
+        "id": 52,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "4*x**2 + 10*y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 4 x^{2} + 10 y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3} y}{3} + \\frac{5 x y^{4}}{2}"
+    },
+    {
+        "id": 53,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "3*x + 5*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 3 x + 5 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{2} y}{2} + \\frac{5 x y^{3}}{3}"
+    },
+    {
+        "id": 54,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x + 10*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x + 10 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} y}{2} + 5 x y^{2}"
+    },
+    {
+        "id": 55,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "4*x**3 + 7*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 4 x^{3} + 7 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{4} y + \\frac{7 x y^{3}}{3}"
+    },
+    {
+        "id": 56,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "8*x**3 + 10*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 8 x^{3} + 10 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{4} y + 5 x y^{2}"
+    },
+    {
+        "id": 57,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "2*x**2 + 9*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 2 x^{2} + 9 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{2 x^{3} y}{3} + \\frac{9 x y^{2}}{2}"
+    },
+    {
+        "id": 58,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "9*x + 8*y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 9 x + 8 y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{9 x^{2} y}{2} + 2 x y^{4}"
+    },
+    {
+        "id": 59,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x**2 + y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x^{2} + y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3} y}{3} + \\frac{x y^{3}}{3}"
+    },
+    {
+        "id": 60,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "8*x**2 + 10*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 8 x^{2} + 10 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{8 x^{3} y}{3} + 5 x y^{2}"
+    },
+    {
+        "id": 61,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "7*x + 2*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 7 x + 2 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{2} y}{2} + \\frac{2 x y^{3}}{3}"
+    },
+    {
+        "id": 62,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "6*x**3 + y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 6 x^{3} + y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{4} y}{2} + \\frac{x y^{2}}{2}"
+    },
+    {
+        "id": 63,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "9*x**2 + 6*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 9 x^{2} + 6 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{3} y + 3 x y^{2}"
+    },
+    {
+        "id": 64,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x + 5*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x + 5 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} y}{2} + \\frac{5 x y^{3}}{3}"
+    },
+    {
+        "id": 65,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "8*x**2 + 10*y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 8 x^{2} + 10 y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{8 x^{3} y}{3} + \\frac{5 x y^{4}}{2}"
+    },
+    {
+        "id": 66,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "5*x**2 + y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 5 x^{2} + y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{3} y}{3} + \\frac{x y^{3}}{3}"
+    },
+    {
+        "id": 67,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "4*x**2 + 4*y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 4 x^{2} + 4 y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3} y}{3} + x y^{4}"
+    },
+    {
+        "id": 68,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "7*x + 2*y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 7 x + 2 y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{2} y}{2} + \\frac{x y^{4}}{2}"
+    },
+    {
+        "id": 69,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "10*x + 6*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 10 x + 6 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "5 x^{2} y + 3 x y^{2}"
+    },
+    {
+        "id": 70,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x**3 + 3*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x^{3} + 3 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{4} y}{4} + x y^{3}"
+    },
+    {
+        "id": 71,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "3*x**3 + 2*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 3 x^{3} + 2 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{4} y}{4} + x y^{2}"
+    },
+    {
+        "id": 72,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x**2 + 2*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x^{2} + 2 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3} y}{3} + x y^{2}"
+    },
+    {
+        "id": 73,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "4*x**3 + 2*y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 4 x^{3} + 2 y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{4} y + \\frac{x y^{4}}{2}"
+    },
+    {
+        "id": 74,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "4*x + y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 4 x + y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{2} y + \\frac{x y^{2}}{2}"
+    },
+    {
+        "id": 75,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "6*x**2 + 10*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 6 x^{2} + 10 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{3} y + 5 x y^{2}"
+    },
+    {
+        "id": 76,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x**2 + 10*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x^{2} + 10 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3} y}{3} + \\frac{10 x y^{3}}{3}"
+    },
+    {
+        "id": 77,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x + 2*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x + 2 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} y}{2} + \\frac{2 x y^{3}}{3}"
+    },
+    {
+        "id": 78,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "6*x**3 + y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 6 x^{3} + y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{4} y}{2} + \\frac{x y^{3}}{3}"
+    },
+    {
+        "id": 79,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "7*x**2 + 8*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 7 x^{2} + 8 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3} y}{3} + \\frac{8 x y^{3}}{3}"
+    },
+    {
+        "id": 80,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "7*x + y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 7 x + y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{2} y}{2} + \\frac{x y^{3}}{3}"
+    },
+    {
+        "id": 81,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x**2 + 2*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x^{2} + 2 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3} y}{3} + \\frac{2 x y^{3}}{3}"
+    },
+    {
+        "id": 82,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "6*x + y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 6 x + y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{2} y + \\frac{x y^{3}}{3}"
+    },
+    {
+        "id": 83,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "6*x + 9*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 6 x + 9 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{2} y + 3 x y^{3}"
+    },
+    {
+        "id": 84,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x**3 + 4*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x^{3} + 4 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{4} y}{4} + 2 x y^{2}"
+    },
+    {
+        "id": 85,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "9*x + 9*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 9 x + 9 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{9 x^{2} y}{2} + \\frac{9 x y^{2}}{2}"
+    },
+    {
+        "id": 86,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "5*x + 9*y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 5 x + 9 y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{2} y}{2} + \\frac{9 x y^{4}}{4}"
+    },
+    {
+        "id": 87,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "5*x**3 + 2*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 5 x^{3} + 2 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{4} y}{4} + \\frac{2 x y^{3}}{3}"
+    },
+    {
+        "id": 88,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "3*x**2 + 3*y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 3 x^{2} + 3 y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{3} y + \\frac{3 x y^{4}}{4}"
+    },
+    {
+        "id": 89,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "2*x + 9*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 2 x + 9 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{2} y + \\frac{9 x y^{2}}{2}"
+    },
+    {
+        "id": 90,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "10*x**3 + 7*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 10 x^{3} + 7 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{4} y}{2} + \\frac{7 x y^{2}}{2}"
+    },
+    {
+        "id": 91,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "4*x**3 + 9*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 4 x^{3} + 9 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{4} y + 3 x y^{3}"
+    },
+    {
+        "id": 92,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "6*x**3 + y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 6 x^{3} + y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{4} y}{2} + \\frac{x y^{3}}{3}"
+    },
+    {
+        "id": 93,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "x**3 + 5*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x^{3} + 5 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{4} y}{4} + \\frac{5 x y^{3}}{3}"
+    },
+    {
+        "id": 94,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "9*x**3 + 2*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 9 x^{3} + 2 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{9 x^{4} y}{4} + x y^{2}"
+    },
+    {
+        "id": 95,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "3*x + 5*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 3 x + 5 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{2} y}{2} + \\frac{5 x y^{2}}{2}"
+    },
+    {
+        "id": 96,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "10*x**3 + 8*y",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 10 x^{3} + 8 y dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{4} y}{2} + 4 x y^{2}"
+    },
+    {
+        "id": 97,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "3*x**3 + 4*y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 3 x^{3} + 4 y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{4} y}{4} + x y^{4}"
+    },
+    {
+        "id": 98,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "5*x + y**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 5 x + y^{3} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{2} y}{2} + \\frac{x y^{4}}{4}"
+    },
+    {
+        "id": 99,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "6*x**2 + 3*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 6 x^{2} + 3 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{3} y + x y^{3}"
+    },
+    {
+        "id": 100,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x",
+            "y"
+        ],
+        "expression_str": "9*x**3 + 8*y**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 9 x^{3} + 8 y^{2} dxdy. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{9 x^{4} y}{4} + \\frac{8 x y^{3}}{3}"
+    },
+    {
+        "id": 101,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 102,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 103,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 104,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 105,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 106,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 107,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 108,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 109,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 110,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 111,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 112,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 113,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 114,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 115,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 116,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 117,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 118,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 119,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 120,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 121,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 122,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 123,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 124,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 125,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 126,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 127,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 128,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 129,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 130,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 131,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 132,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 133,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 134,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 135,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 136,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 137,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 138,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 139,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 140,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 141,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 142,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 143,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 144,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 145,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 146,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 147,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 148,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*cos(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\cos{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} \\sin{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 149,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 150,
+        "category": "Mixed_2D",
+        "variables_order": [
+            "y",
+            "x"
+        ],
+        "expression_str": "x*sin(y) + y*exp(x)",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int x \\sin{\\left(y \\right)} + y e^{x} dydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "- \\frac{x^{2} \\cos{\\left(y \\right)}}{2} + \\frac{y^{2} e^{x}}{2}"
+    },
+    {
+        "id": 151,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "x**3 + 3*y**3 + 7*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int x^{3} + 3 y^{3} + 7 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{4} y z}{4} + x \\left(\\frac{3 y^{4} z}{4} + \\frac{7 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 152,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "9*x**2 + 9*y**2 + 2*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 9 x^{2} + 9 y^{2} + 2 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{3} y z + x \\left(3 y^{3} z + \\frac{2 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 153,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "9*x**2 + 8*y**3 + 5*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 9 x^{2} + 8 y^{3} + 5 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{3} y z + x \\left(2 y^{4} z + \\frac{5 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 154,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "2*x + 8*y + 4*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 2 x + 8 y + 4 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{2} y z + x \\left(4 y^{2} z + y z^{4}\\right)"
+    },
+    {
+        "id": 155,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "4*x**3 + 6*y**2 + 7*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 4 x^{3} + 6 y^{2} + 7 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{4} y z + x \\left(2 y^{3} z + \\frac{7 y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 156,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "2*x**3 + 5*y**3 + 6*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 2 x^{3} + 5 y^{3} + 6 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{4} y z}{2} + x \\left(\\frac{5 y^{4} z}{4} + 3 y z^{2}\\right)"
+    },
+    {
+        "id": 157,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "10*x + 4*y**2 + 2*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 10 x + 4 y^{2} + 2 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "5 x^{2} y z + x \\left(\\frac{4 y^{3} z}{3} + \\frac{y z^{4}}{2}\\right)"
+    },
+    {
+        "id": 158,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "7*x + 5*y**3 + 4*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 7 x + 5 y^{3} + 4 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{2} y z}{2} + x \\left(\\frac{5 y^{4} z}{4} + 2 y z^{2}\\right)"
+    },
+    {
+        "id": 159,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "4*x**2 + 2*y**3 + 10*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 4 x^{2} + 2 y^{3} + 10 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3} y z}{3} + x \\left(\\frac{y^{4} z}{2} + \\frac{5 y z^{4}}{2}\\right)"
+    },
+    {
+        "id": 160,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "8*x**3 + 5*y + 8*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 8 x^{3} + 5 y + 8 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{4} y z + x \\left(\\frac{5 y^{2} z}{2} + \\frac{8 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 161,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "2*x**3 + 8*y + 4*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 2 x^{3} + 8 y + 4 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{4} y z}{2} + x \\left(4 y^{2} z + y z^{4}\\right)"
+    },
+    {
+        "id": 162,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "2*x**2 + 2*y + z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 2 x^{2} + 2 y + z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{2 x^{3} y z}{3} + x \\left(y^{2} z + \\frac{y z^{2}}{2}\\right)"
+    },
+    {
+        "id": 163,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "5*x**2 + 7*y**3 + 4*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 5 x^{2} + 7 y^{3} + 4 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{3} y z}{3} + x \\left(\\frac{7 y^{4} z}{4} + y z^{4}\\right)"
+    },
+    {
+        "id": 164,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "8*x**3 + 3*y**3 + 2*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 8 x^{3} + 3 y^{3} + 2 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{4} y z + x \\left(\\frac{3 y^{4} z}{4} + \\frac{y z^{4}}{2}\\right)"
+    },
+    {
+        "id": 165,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "3*x**2 + 4*y**2 + 4*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 3 x^{2} + 4 y^{2} + 4 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{3} y z + x \\left(\\frac{4 y^{3} z}{3} + 2 y z^{2}\\right)"
+    },
+    {
+        "id": 166,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "3*x**3 + 5*y + z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 3 x^{3} + 5 y + z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{4} y z}{4} + x \\left(\\frac{5 y^{2} z}{2} + \\frac{y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 167,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "x + 10*y**3 + 8*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int x + 10 y^{3} + 8 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} y z}{2} + x \\left(\\frac{5 y^{4} z}{2} + 4 y z^{2}\\right)"
+    },
+    {
+        "id": 168,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "5*x + 8*y**2 + 7*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 5 x + 8 y^{2} + 7 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{2} y z}{2} + x \\left(\\frac{8 y^{3} z}{3} + \\frac{7 y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 169,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "2*x**3 + 9*y + 2*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 2 x^{3} + 9 y + 2 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{4} y z}{2} + x \\left(\\frac{9 y^{2} z}{2} + \\frac{2 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 170,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "8*x + y**3 + 6*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 8 x + y^{3} + 6 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "4 x^{2} y z + x \\left(\\frac{y^{4} z}{4} + 3 y z^{2}\\right)"
+    },
+    {
+        "id": 171,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "7*x**3 + 10*y**2 + 2*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 7 x^{3} + 10 y^{2} + 2 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{4} y z}{4} + x \\left(\\frac{10 y^{3} z}{3} + \\frac{2 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 172,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "7*x**2 + 5*y + 10*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 7 x^{2} + 5 y + 10 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3} y z}{3} + x \\left(\\frac{5 y^{2} z}{2} + \\frac{10 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 173,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "6*x**2 + 7*y**3 + 10*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 6 x^{2} + 7 y^{3} + 10 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{3} y z + x \\left(\\frac{7 y^{4} z}{4} + \\frac{5 y z^{4}}{2}\\right)"
+    },
+    {
+        "id": 174,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "9*x + 8*y**2 + z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 9 x + 8 y^{2} + z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{9 x^{2} y z}{2} + x \\left(\\frac{8 y^{3} z}{3} + \\frac{y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 175,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "6*x**3 + 10*y + 9*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 6 x^{3} + 10 y + 9 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{4} y z}{2} + x \\left(5 y^{2} z + \\frac{9 y z^{2}}{2}\\right)"
+    },
+    {
+        "id": 176,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "4*x**2 + 7*y + 3*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 4 x^{2} + 7 y + 3 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{4 x^{3} y z}{3} + x \\left(\\frac{7 y^{2} z}{2} + \\frac{3 y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 177,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "8*x**3 + y**3 + z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 8 x^{3} + y^{3} + z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{4} y z + x \\left(\\frac{y^{4} z}{4} + \\frac{y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 178,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "5*x**3 + 5*y**3 + 9*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 5 x^{3} + 5 y^{3} + 9 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{4} y z}{4} + x \\left(\\frac{5 y^{4} z}{4} + \\frac{9 y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 179,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "9*x**3 + 2*y**2 + 9*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 9 x^{3} + 2 y^{2} + 9 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{9 x^{4} y z}{4} + x \\left(\\frac{2 y^{3} z}{3} + \\frac{9 y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 180,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "6*x + 7*y**3 + 10*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 6 x + 7 y^{3} + 10 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "3 x^{2} y z + x \\left(\\frac{7 y^{4} z}{4} + \\frac{10 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 181,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "9*x**3 + 4*y + z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 9 x^{3} + 4 y + z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{9 x^{4} y z}{4} + x \\left(2 y^{2} z + \\frac{y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 182,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "3*x**3 + 7*y + 7*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 3 x^{3} + 7 y + 7 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{4} y z}{4} + x \\left(\\frac{7 y^{2} z}{2} + \\frac{7 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 183,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "x**2 + y**2 + 6*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int x^{2} + y^{2} + 6 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3} y z}{3} + x \\left(\\frac{y^{3} z}{3} + 3 y z^{2}\\right)"
+    },
+    {
+        "id": 184,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "9*x**3 + 10*y + 10*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 9 x^{3} + 10 y + 10 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{9 x^{4} y z}{4} + x \\left(5 y^{2} z + \\frac{10 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 185,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "8*x**3 + y + 10*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 8 x^{3} + y + 10 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{4} y z + x \\left(\\frac{y^{2} z}{2} + \\frac{10 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 186,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "8*x**3 + 5*y**3 + 8*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 8 x^{3} + 5 y^{3} + 8 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{4} y z + x \\left(\\frac{5 y^{4} z}{4} + \\frac{8 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 187,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "x**2 + 3*y**2 + 9*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int x^{2} + 3 y^{2} + 9 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{3} y z}{3} + x \\left(y^{3} z + \\frac{9 y z^{2}}{2}\\right)"
+    },
+    {
+        "id": 188,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "6*x**2 + 2*y + 10*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 6 x^{2} + 2 y + 10 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{3} y z + x \\left(y^{2} z + \\frac{10 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 189,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "3*x**3 + 2*y**3 + 9*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 3 x^{3} + 2 y^{3} + 9 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x^{4} y z}{4} + x \\left(\\frac{y^{4} z}{2} + 3 y z^{3}\\right)"
+    },
+    {
+        "id": 190,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "10*x**2 + 7*y + 8*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 10 x^{2} + 7 y + 8 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{10 x^{3} y z}{3} + x \\left(\\frac{7 y^{2} z}{2} + \\frac{8 y z^{3}}{3}\\right)"
+    },
+    {
+        "id": 191,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "7*x**3 + 3*y**2 + 4*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 7 x^{3} + 3 y^{2} + 4 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{4} y z}{4} + x \\left(y^{3} z + 2 y z^{2}\\right)"
+    },
+    {
+        "id": 192,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "3*x**2 + 3*y**3 + 10*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 3 x^{2} + 3 y^{3} + 10 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{3} y z + x \\left(\\frac{3 y^{4} z}{4} + \\frac{5 y z^{4}}{2}\\right)"
+    },
+    {
+        "id": 193,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "9*x + 5*y**2 + 5*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 9 x + 5 y^{2} + 5 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{9 x^{2} y z}{2} + x \\left(\\frac{5 y^{3} z}{3} + \\frac{5 y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 194,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "6*x**2 + 5*y**3 + z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 6 x^{2} + 5 y^{3} + z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "2 x^{3} y z + x \\left(\\frac{5 y^{4} z}{4} + \\frac{y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 195,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "x + 3*y**3 + z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int x + 3 y^{3} + z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x^{2} y z}{2} + x \\left(\\frac{3 y^{4} z}{4} + \\frac{y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 196,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "8*x + 6*y + 7*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 8 x + 6 y + 7 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "4 x^{2} y z + x \\left(3 y^{2} z + \\frac{7 y z^{4}}{4}\\right)"
+    },
+    {
+        "id": 197,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "10*x**3 + 5*y**2 + 2*z**3",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 10 x^{3} + 5 y^{2} + 2 z^{3} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{4} y z}{2} + x \\left(\\frac{5 y^{3} z}{3} + \\frac{y z^{4}}{2}\\right)"
+    },
+    {
+        "id": 198,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "7*x**2 + 4*y**2 + z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 7 x^{2} + 4 y^{2} + z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{7 x^{3} y z}{3} + x \\left(\\frac{4 y^{3} z}{3} + \\frac{y z^{2}}{2}\\right)"
+    },
+    {
+        "id": 199,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "10*x**3 + 9*y**2 + 5*z",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 10 x^{3} + 9 y^{2} + 5 z dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{5 x^{4} y z}{2} + x \\left(3 y^{3} z + \\frac{5 y z^{2}}{2}\\right)"
+    },
+    {
+        "id": 200,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "z",
+            "y",
+            "x"
+        ],
+        "expression_str": "4*x**3 + 5*y**3 + 10*z**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 4 x^{3} + 5 y^{3} + 10 z^{2} dzdydx. Result should be expressed in latex format.",
+        "ground_truth_latex": "x^{4} y z + x \\left(\\frac{5 y^{4} z}{4} + \\frac{10 y z^{3}}{3}\\right)"
+    }
+]
