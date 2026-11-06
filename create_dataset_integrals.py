@@ -70,9 +70,10 @@ def generate_multivariable_dataset(count_per_type=5):
     return dataset
 
 
-multi_dataset = generate_multivariable_dataset(count_per_type=50)
-with open("multivariable_integrals_dataset.json", "w") as f:
-    json.dump(multi_dataset, f, indent=4, ensure_ascii=False)
+if __name__ == "__main__":
 
+    multi_dataset = generate_multivariable_dataset(count_per_type=50)
+    with open("multivariable_integrals_dataset.json", "w") as f:
+        json.dump(multi_dataset, f, indent=4, ensure_ascii=False)
 
-print("Dataset generated and saved to multivariable_integrals_dataset.json")
+    print("Dataset generated and saved to multivariable_integrals_dataset.json")
