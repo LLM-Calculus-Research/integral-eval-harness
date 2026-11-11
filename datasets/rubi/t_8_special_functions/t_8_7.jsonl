@@ -1,0 +1,14 @@
+{"index": 0, "integral": "x**2*polygamma(0, a + b*x)/b - 2*x*loggamma(a + b*x)/b**2 + 2*PolyGamma(-2, a + b*x)/b**3", "integrand": "x**2*zeta(2, a + b*x)", "num_steps": 4, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 1, "integral": "x*polygamma(0, a + b*x)/b - loggamma(a + b*x)/b**2", "integrand": "x*zeta(2, a + b*x)", "num_steps": 3, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 2, "integral": "polygamma(0, a + b*x)/b", "integrand": "zeta(2, a + b*x)", "num_steps": 2, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 3, "integrand": "zeta(2, a + b*x)/x", "num_steps": 1, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 4, "integrand": "zeta(2, a + b*x)/x**2", "num_steps": 2, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 5, "integrand": "zeta(2, a + b*x)/x**3", "num_steps": 3, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 6, "integral": "-polygamma(1, a + b*x)/x", "integrand": "-b*polygamma(2, a + b*x)/x + zeta(2, a + b*x)/x**2", "num_steps": 3, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 7, "integral": "x**2*zeta(s - 1, a + b*x)/(b*(1 - s)) - 2*x*zeta(s - 2, a + b*x)/(b**2*(1 - s)*(2 - s)) + 2*zeta(s - 3, a + b*x)/(b**3*(1 - s)*(2 - s)*(3 - s))", "integrand": "x**2*zeta(s, a + b*x)", "num_steps": 3, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 8, "integral": "x*zeta(s - 1, a + b*x)/(b*(1 - s)) - zeta(s - 2, a + b*x)/(b**2*(1 - s)*(2 - s))", "integrand": "x*zeta(s, a + b*x)", "num_steps": 2, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 9, "integral": "zeta(s - 1, a + b*x)/(b*(1 - s))", "integrand": "zeta(s, a + b*x)", "num_steps": 1, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 10, "integrand": "zeta(s, a + b*x)/x", "num_steps": 0, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 11, "integrand": "zeta(s, a + b*x)/x**2", "num_steps": 1, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 12, "integrand": "zeta(s, a + b*x)/x**3", "num_steps": 2, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}
+{"index": 13, "integral": "-zeta(s, a + b*x)/x", "integrand": "b*s*zeta(s + 1, a + b*x)/x + zeta(s, a + b*x)/x**2", "num_steps": 2, "source": "8 Special functions/8.7 Zeta function.m", "suite": "rubi", "variable": "x"}

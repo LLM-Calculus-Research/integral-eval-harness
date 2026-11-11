@@ -1,10 +1,16 @@
 import json
-
+import os
 import ollama
 import pandas as pd
 import sympy as sp
 
-dataset = pd.read_json("multivariable_integrals_dataset.json")
+base_dir = os.path.dirname(os.path.abspath(__file__))
+dataset = os.path.join(
+    base_dir, "datasets", "simple_own_dataset", "multivariable_integrals_dataset.json"
+)
+output = os.path.join(
+    base_dir, "eval", "eval_own_dataset_llm_results", "evaluation_llm_results.csv"
+)
 x, y, z = sp.symbols("x y z")
 
 
@@ -88,5 +94,5 @@ sin(x), cos(x), exp(x). Omit the constant of integration."""
 
 if __name__ == "__main__":
     evaluation_results = evaluate_integrals_with_ollama("gemma4", dataset)
-    pd.DataFrame(evaluation_results).to_csv("evaluation_llm_results.csv", index=False)
+    pd.DataFrame(evaluation_results).to_csv(output, index=False)
     print("\nTabela wyników została pomyślnie zapisana do pliku CSV!")
