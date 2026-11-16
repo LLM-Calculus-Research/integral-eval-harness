@@ -1,0 +1,22 @@
+============================================================
+EVALUATION SUMMARY
+============================================================
+Total tasks: 200
+Correct answers: 197
+Incorrect answers: 0
+Errors: 0
+Accuracy: 98.50%
+Average time: 24.29s
+Total time: 65.42 min
+
+RESULTS BY CATEGORY:
+               total  correct  average_time  accuracy_percent
+category                                                     
+Mixed_2D          50       50     15.761247             100.0
+Polynomial        50       50     12.257836             100.0
+Polynomial_2D     50       50     10.902802             100.0
+Polynomial_3D     50       47     87.228462             94.0
+
+============================================================
+EVALUATION FINISHED
+============================================================
