@@ -1,8 +1,11 @@
 import json
 import random
 import sympy as sp
+import string
 
 x, y, z = sp.symbols("x y z")
+
+a = sp.symbols("x0:200")
 
 
 def gen_polynomial():
@@ -39,6 +42,44 @@ def gen_polynomial_3d():
     return f, [z, y, x], "Polynomial_3D"
 
 
+def gen_polynomial_nd(n):
+    """Simple polynomial n D generator for testing purposes"""
+
+    f = random.randint(1, 100) * a[0] ** random.randint(1, 25)
+    for i in range(1, n):
+        f += random.randint(1, 100) * a[i] ** random.randint(1, 25)
+
+    return f, a[:n][::-1], f"Polynomial_{n}D"
+
+
+def generate_n_polynomial(n, m):
+    dataset = []
+    idx = 1
+
+    for i in range(n, m + 1):
+        f, vars_order, category = gen_polynomial_nd(i)
+
+        solutions = sp.integrate(f, *vars_order)
+
+        diff_elements = "".join([f"d{v}" for v in vars_order])
+
+        integral_symbols = "\\int" * len(vars_order)
+        prompt_latex = f"{integral_symbols} {sp.latex(f)} {diff_elements}"
+
+        dataset.append(
+            {
+                "id": idx,
+                "category": category,
+                "variables_order": [str(v) for v in vars_order],
+                "expression_str": str(f),
+                "prompt_latex": f"Calculate the integral of the following expression: {prompt_latex}. Result should be expressed in latex format.",
+                "ground_truth_latex": sp.latex(solutions),
+            }
+        )
+        idx += 1
+    return dataset
+
+
 def generate_multivariable_dataset(count_per_type=5):
     dataset = []
     generators = [gen_polynomial, gen_polynomial_2d, gen_mixed_2d, gen_polynomial_3d]
@@ -72,8 +113,14 @@ def generate_multivariable_dataset(count_per_type=5):
 
 if __name__ == "__main__":
 
-    multi_dataset = generate_multivariable_dataset(count_per_type=50)
-    with open("multivariable_integrals_dataset.json", "w") as f:
-        json.dump(multi_dataset, f, indent=4, ensure_ascii=False)
+    # multi_dataset = generate_multivariable_dataset(count_per_type=50)
+    # with open("multivariable_integrals_dataset.json", "w") as f:
+    #     json.dump(multi_dataset, f, indent=4, ensure_ascii=False)
 
-    print("Dataset generated and saved to multivariable_integrals_dataset.json")
+    # print("Dataset generated and saved to multivariable_integrals_dataset.json")
+
+    n_polynomial_dataset = generate_n_polynomial(10, 50)
+    with open("n_polynomail_dataset.json", "w", encoding="utf-8") as f:
+        json.dump(n_polynomial_dataset, f, indent=4, ensure_ascii=False)
+
+    print("Dataset generated and saved to n_polynomail_dataset.json")

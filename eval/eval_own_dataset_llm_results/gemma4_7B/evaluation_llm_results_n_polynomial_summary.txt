@@ -1,0 +1,27 @@
+============================================================
+EVALUATION SUMMARY
+============================================================
+Total tasks: 10
+Correct answers: 5
+Incorrect answers: 5
+Errors: 0
+Accuracy: 50.00%
+Average time: 158.66s
+Total time: 26.44 min
+
+RESULTS BY CATEGORY:
+category        total  correct  average_time  accuracy_percent
+Polynomial_10D      1        0        364.21              0.00
+Polynomial_1D       1        1         47.44            100.00
+Polynomial_2D       1        1         57.64            100.00
+Polynomial_3D       1        1        100.43            100.00
+Polynomial_4D       1        1        145.46            100.00
+Polynomial_5D       1        1        195.18            100.00
+Polynomial_6D       1        0        210.29              0.00
+Polynomial_7D       1        0        169.28              0.00
+Polynomial_8D       1        0        140.78              0.00
+Polynomial_9D       1        0        155.89              0.00
+
+============================================================
+EVALUATION FINISHED
+============================================================

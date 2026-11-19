@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "category": "Polynomial_1D",
+        "variables_order": [
+            "x0"
+        ],
+        "expression_str": "76*x0**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int 76 x_{0}^{2} dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{76 x_{0}^{3}}{3}"
+    },
+    {
+        "id": 2,
+        "category": "Polynomial_2D",
+        "variables_order": [
+            "x1",
+            "x0"
+        ],
+        "expression_str": "78*x0**7 + 47*x1**13",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int 78 x_{0}^{7} + 47 x_{1}^{13} dx1dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{39 x_{0}^{8} x_{1}}{4} + \\frac{47 x_{0} x_{1}^{14}}{14}"
+    },
+    {
+        "id": 3,
+        "category": "Polynomial_3D",
+        "variables_order": [
+            "x2",
+            "x1",
+            "x0"
+        ],
+        "expression_str": "64*x0**5 + 64*x1**20 + 47*x2**6",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int 64 x_{0}^{5} + 64 x_{1}^{20} + 47 x_{2}^{6} dx2dx1dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{32 x_{0}^{6} x_{1} x_{2}}{3} + x_{0} \\left(\\frac{64 x_{1}^{21} x_{2}}{21} + \\frac{47 x_{1} x_{2}^{7}}{7}\\right)"
+    },
+    {
+        "id": 4,
+        "category": "Polynomial_4D",
+        "variables_order": [
+            "x3",
+            "x2",
+            "x1",
+            "x0"
+        ],
+        "expression_str": "97*x0**14 + 29*x1**24 + 29*x2**9 + 7*x3**23",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int\\int 97 x_{0}^{14} + 29 x_{1}^{24} + 29 x_{2}^{9} + 7 x_{3}^{23} dx3dx2dx1dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{97 x_{0}^{15} x_{1} x_{2} x_{3}}{15} + x_{0} \\left(\\frac{29 x_{1}^{25} x_{2} x_{3}}{25} + \\frac{29 x_{1} x_{2}^{10} x_{3}}{10} + \\frac{7 x_{1} x_{2} x_{3}^{24}}{24}\\right)"
+    },
+    {
+        "id": 5,
+        "category": "Polynomial_5D",
+        "variables_order": [
+            "x4",
+            "x3",
+            "x2",
+            "x1",
+            "x0"
+        ],
+        "expression_str": "x0**6 + 61*x1**5 + 78*x2**22 + 9*x3**11 + 80*x4**13",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int\\int\\int x_{0}^{6} + 61 x_{1}^{5} + 78 x_{2}^{22} + 9 x_{3}^{11} + 80 x_{4}^{13} dx4dx3dx2dx1dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{x_{0}^{7} x_{1} x_{2} x_{3} x_{4}}{7} + x_{0} \\left(\\frac{61 x_{1}^{6} x_{2} x_{3} x_{4}}{6} + \\frac{78 x_{1} x_{2}^{23} x_{3} x_{4}}{23} + \\frac{3 x_{1} x_{2} x_{3}^{12} x_{4}}{4} + \\frac{40 x_{1} x_{2} x_{3} x_{4}^{14}}{7}\\right)"
+    },
+    {
+        "id": 6,
+        "category": "Polynomial_6D",
+        "variables_order": [
+            "x5",
+            "x4",
+            "x3",
+            "x2",
+            "x1",
+            "x0"
+        ],
+        "expression_str": "6*x0**14 + 52*x1**5 + 15*x2**4 + 92*x3**25 + 82*x4**10 + 7*x5**12",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int\\int\\int\\int 6 x_{0}^{14} + 52 x_{1}^{5} + 15 x_{2}^{4} + 92 x_{3}^{25} + 82 x_{4}^{10} + 7 x_{5}^{12} dx5dx4dx3dx2dx1dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{2 x_{0}^{15} x_{1} x_{2} x_{3} x_{4} x_{5}}{5} + x_{0} \\left(\\frac{26 x_{1}^{6} x_{2} x_{3} x_{4} x_{5}}{3} + 3 x_{1} x_{2}^{5} x_{3} x_{4} x_{5} + \\frac{46 x_{1} x_{2} x_{3}^{26} x_{4} x_{5}}{13} + \\frac{82 x_{1} x_{2} x_{3} x_{4}^{11} x_{5}}{11} + \\frac{7 x_{1} x_{2} x_{3} x_{4} x_{5}^{13}}{13}\\right)"
+    },
+    {
+        "id": 7,
+        "category": "Polynomial_7D",
+        "variables_order": [
+            "x6",
+            "x5",
+            "x4",
+            "x3",
+            "x2",
+            "x1",
+            "x0"
+        ],
+        "expression_str": "6*x0**9 + 23*x1**14 + 67*x2**8 + 76*x3**8 + 95*x4**10 + 16*x5**4 + 10*x6**2",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int\\int\\int\\int\\int 6 x_{0}^{9} + 23 x_{1}^{14} + 67 x_{2}^{8} + 76 x_{3}^{8} + 95 x_{4}^{10} + 16 x_{5}^{4} + 10 x_{6}^{2} dx6dx5dx4dx3dx2dx1dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{3 x_{0}^{10} x_{1} x_{2} x_{3} x_{4} x_{5} x_{6}}{5} + x_{0} \\left(\\frac{23 x_{1}^{15} x_{2} x_{3} x_{4} x_{5} x_{6}}{15} + \\frac{67 x_{1} x_{2}^{9} x_{3} x_{4} x_{5} x_{6}}{9} + \\frac{76 x_{1} x_{2} x_{3}^{9} x_{4} x_{5} x_{6}}{9} + \\frac{95 x_{1} x_{2} x_{3} x_{4}^{11} x_{5} x_{6}}{11} + \\frac{16 x_{1} x_{2} x_{3} x_{4} x_{5}^{5} x_{6}}{5} + \\frac{10 x_{1} x_{2} x_{3} x_{4} x_{5} x_{6}^{3}}{3}\\right)"
+    },
+    {
+        "id": 8,
+        "category": "Polynomial_8D",
+        "variables_order": [
+            "x7",
+            "x6",
+            "x5",
+            "x4",
+            "x3",
+            "x2",
+            "x1",
+            "x0"
+        ],
+        "expression_str": "30*x0**3 + 96*x1 + 15*x2**19 + 48*x3**12 + 66*x4**20 + 7*x5**6 + 50*x6**5 + 69*x7**18",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int\\int\\int\\int\\int\\int 30 x_{0}^{3} + 96 x_{1} + 15 x_{2}^{19} + 48 x_{3}^{12} + 66 x_{4}^{20} + 7 x_{5}^{6} + 50 x_{6}^{5} + 69 x_{7}^{18} dx7dx6dx5dx4dx3dx2dx1dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{15 x_{0}^{4} x_{1} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7}}{2} + x_{0} \\left(48 x_{1}^{2} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7} + \\frac{3 x_{1} x_{2}^{20} x_{3} x_{4} x_{5} x_{6} x_{7}}{4} + \\frac{48 x_{1} x_{2} x_{3}^{13} x_{4} x_{5} x_{6} x_{7}}{13} + \\frac{22 x_{1} x_{2} x_{3} x_{4}^{21} x_{5} x_{6} x_{7}}{7} + x_{1} x_{2} x_{3} x_{4} x_{5}^{7} x_{6} x_{7} + \\frac{25 x_{1} x_{2} x_{3} x_{4} x_{5} x_{6}^{6} x_{7}}{3} + \\frac{69 x_{1} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7}^{19}}{19}\\right)"
+    },
+    {
+        "id": 9,
+        "category": "Polynomial_9D",
+        "variables_order": [
+            "x8",
+            "x7",
+            "x6",
+            "x5",
+            "x4",
+            "x3",
+            "x2",
+            "x1",
+            "x0"
+        ],
+        "expression_str": "78*x0**5 + 25*x1**11 + 76*x2**10 + 56*x3**23 + 21*x4**15 + 17*x5**20 + 97*x6**2 + 16*x7**16 + 30*x8**5",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int\\int\\int\\int\\int\\int\\int 78 x_{0}^{5} + 25 x_{1}^{11} + 76 x_{2}^{10} + 56 x_{3}^{23} + 21 x_{4}^{15} + 17 x_{5}^{20} + 97 x_{6}^{2} + 16 x_{7}^{16} + 30 x_{8}^{5} dx8dx7dx6dx5dx4dx3dx2dx1dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "13 x_{0}^{6} x_{1} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7} x_{8} + x_{0} \\left(\\frac{25 x_{1}^{12} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7} x_{8}}{12} + \\frac{76 x_{1} x_{2}^{11} x_{3} x_{4} x_{5} x_{6} x_{7} x_{8}}{11} + \\frac{7 x_{1} x_{2} x_{3}^{24} x_{4} x_{5} x_{6} x_{7} x_{8}}{3} + \\frac{21 x_{1} x_{2} x_{3} x_{4}^{16} x_{5} x_{6} x_{7} x_{8}}{16} + \\frac{17 x_{1} x_{2} x_{3} x_{4} x_{5}^{21} x_{6} x_{7} x_{8}}{21} + \\frac{97 x_{1} x_{2} x_{3} x_{4} x_{5} x_{6}^{3} x_{7} x_{8}}{3} + \\frac{16 x_{1} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7}^{17} x_{8}}{17} + 5 x_{1} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7} x_{8}^{6}\\right)"
+    },
+    {
+        "id": 10,
+        "category": "Polynomial_10D",
+        "variables_order": [
+            "x9",
+            "x8",
+            "x7",
+            "x6",
+            "x5",
+            "x4",
+            "x3",
+            "x2",
+            "x1",
+            "x0"
+        ],
+        "expression_str": "94*x0**24 + 51*x1**15 + 46*x2**8 + 3*x3**18 + x4**7 + 79*x5**20 + 2*x6**7 + 19*x7**19 + 76*x8**18 + 12*x9**9",
+        "prompt_latex": "Calculate the integral of the following expression: \\int\\int\\int\\int\\int\\int\\int\\int\\int\\int 94 x_{0}^{24} + 51 x_{1}^{15} + 46 x_{2}^{8} + 3 x_{3}^{18} + x_{4}^{7} + 79 x_{5}^{20} + 2 x_{6}^{7} + 19 x_{7}^{19} + 76 x_{8}^{18} + 12 x_{9}^{9} dx9dx8dx7dx6dx5dx4dx3dx2dx1dx0. Result should be expressed in latex format.",
+        "ground_truth_latex": "\\frac{94 x_{0}^{25} x_{1} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7} x_{8} x_{9}}{25} + x_{0} \\left(\\frac{51 x_{1}^{16} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7} x_{8} x_{9}}{16} + \\frac{46 x_{1} x_{2}^{9} x_{3} x_{4} x_{5} x_{6} x_{7} x_{8} x_{9}}{9} + \\frac{3 x_{1} x_{2} x_{3}^{19} x_{4} x_{5} x_{6} x_{7} x_{8} x_{9}}{19} + \\frac{x_{1} x_{2} x_{3} x_{4}^{8} x_{5} x_{6} x_{7} x_{8} x_{9}}{8} + \\frac{79 x_{1} x_{2} x_{3} x_{4} x_{5}^{21} x_{6} x_{7} x_{8} x_{9}}{21} + \\frac{x_{1} x_{2} x_{3} x_{4} x_{5} x_{6}^{8} x_{7} x_{8} x_{9}}{4} + \\frac{19 x_{1} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7}^{20} x_{8} x_{9}}{20} + 4 x_{1} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7} x_{8}^{19} x_{9} + \\frac{6 x_{1} x_{2} x_{3} x_{4} x_{5} x_{6} x_{7} x_{8} x_{9}^{10}}{5}\\right)"
+    }
+]
