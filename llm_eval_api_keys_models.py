@@ -8,13 +8,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 MODEL_API_KEY = os.getenv("GOOGLE_AI_API_KEY")
-REQUEST_INTERVAL_SECONDS = 30
+REQUEST_INTERVAL_SECONDS = 15
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 dataset = os.path.join(
-    base_dir, "datasets", "simple_own_dataset", "multivariable_integrals_dataset.json"
-)
-dataset2 = os.path.join(
     base_dir, "datasets", "simple_own_dataset", "n_polynomail_dataset.json"
 )
 output = os.path.join(
@@ -191,7 +188,7 @@ def write_evaluation_summary(results, summary_path):
 
 
 if __name__ == "__main__":
-    dataset_df = pd.read_json(dataset2)
+    dataset_df = pd.read_json(dataset)
     evaluation_results = evaluate_integrals_with_google_ai(
         "gemini-4-hydrogen", dataset_df
     )

@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
     # print("Dataset generated and saved to multivariable_integrals_dataset.json")
 
-    n_polynomial_dataset = generate_n_polynomial(10, 50)
+    n_polynomial_dataset = generate_n_polynomial(100, 120)
     with open("n_polynomail_dataset.json", "w", encoding="utf-8") as f:
         json.dump(n_polynomial_dataset, f, indent=4, ensure_ascii=False)
 

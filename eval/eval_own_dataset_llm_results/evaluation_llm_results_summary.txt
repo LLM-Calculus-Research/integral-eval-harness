@@ -1,0 +1,38 @@
+============================================================
+EVALUATION SUMMARY
+============================================================
+Total tasks: 21
+Correct answers: 14
+Incorrect answers: 7
+Errors: 7
+Accuracy: 66.67%
+Average time: 111.72s
+Total time: 39.10 min
+
+RESULTS BY CATEGORY:
+category        total  correct  average_time  accuracy_percent
+Polynomial_29D      1        1        194.27            100.00
+Polynomial_30D      1        1        145.85            100.00
+Polynomial_31D      1        0          6.61              0.00
+Polynomial_32D      1        0          1.13              0.00
+Polynomial_33D      1        1        133.92            100.00
+Polynomial_34D      1        1        114.25            100.00
+Polynomial_35D      1        1        152.89            100.00
+Polynomial_36D      1        1        157.10            100.00
+Polynomial_37D      1        1        131.18            100.00
+Polynomial_38D      1        1        539.18            100.00
+Polynomial_39D      1        1        200.30            100.00
+Polynomial_40D      1        0          2.76              0.00
+Polynomial_41D      1        0          0.71              0.00
+Polynomial_42D      1        0          3.63              0.00
+Polynomial_43D      1        1        132.40            100.00
+Polynomial_44D      1        1        104.90            100.00
+Polynomial_45D      1        1        114.94            100.00
+Polynomial_46D      1        1        151.10            100.00
+Polynomial_47D      1        1         58.17            100.00
+Polynomial_48D      1        0          0.40              0.00
+Polynomial_49D      1        0          0.43              0.00
+
+============================================================
+EVALUATION FINISHED
+============================================================
