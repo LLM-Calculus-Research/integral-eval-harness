@@ -1,0 +1,22 @@
+============================================================
+EVALUATION SUMMARY (INTEGRALBENCH - THINKING OFF)
+============================================================
+Total tasks: 317
+Correct answers: 13
+Incorrect answers: 304
+Accuracy: 4.10%
+Average time: 0.30s
+Total time: 1.58 min
+
+RESULTS BY DIFFICULTY:
+            total  correct  average_time  accuracy_percent
+difficulty                                                
+1.0            32        6      0.277839         18.750000
+2.0            30        3      0.288867         10.000000
+3.0            44        2      0.304711          4.545455
+4.0           150        1      0.288547          0.666667
+5.0            52        0      0.352267          0.000000
+
+============================================================
+EVALUATION FINISHED
+============================================================

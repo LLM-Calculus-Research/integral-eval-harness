@@ -1,0 +1,1006 @@
+[22/317] Problem ID: 122 | Source: Handbook_of_Special_Functions_in_page_297
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12199).
+
+[23/317] Problem ID: 123 | Source: Handbook_of_Special_Functions_in_page_297
+-> Incorrect | Pred: 1.2337006 vs Ref: 2.7232905 | Thinking chars: 2507 | Time: 6.20s
+   Abs difference: 1.489590e+00 | Raw output: pi**2 / 8
+
+[24/317] Problem ID: 124 | Source: Handbook_of_Special_Functions_in_page_297
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11514).
+
+[25/317] Problem ID: 125 | Source: Handbook_of_Special_Functions_in_page_297
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13957).
+
+[26/317] Problem ID: 126 | Source: Handbook_of_Special_Functions_in_page_297
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {
+    "result_python": "-I*(pi**2/4 - pi*log(3)/6 + log**(1-0.5**2)**(-sqrt(3))"
+
+[27/317] Problem ID: 127 | Source: Handbook_of_Special_Functions_in_page_206
+-> ERROR: Sympify of expression 'could not parse '-16*(gamma(5/4)**2 - gamma(3/4)*hyper([1], [7/4], 1]) + hyper([1], [], []))'' failed, because of exception being raised:
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' (<string>, line 1)
+
+[28/317] Problem ID: 128 | Source: Handbook_of_Special_Functions_in_page_206
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13055).
+
+[29/317] Problem ID: 129 | Source: Handbook_of_Special_Functions_in_page_206
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {
+    "result_python": "1.27324"
+
+[30/317] Problem ID: 130 | Source: Handbook_of_Special_Functions_in_page_206
+-> Incorrect | Pred: 0.495238 vs Ref: 3.3239709 | Thinking chars: 1931 | Time: 4.93s
+   Abs difference: 2.828733e+00 | Raw output: 0.495238
+
+[31/317] Problem ID: 131 | Source: Handbook_of_Special_Functions_in_page_206
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=18902).
+
+[32/317] Problem ID: 132 | Source: Handbook_of_Special_Functions_in_page_206
+-> Incorrect | Pred: 0.869743 vs Ref: 0.35030039 | Thinking chars: 3524 | Time: 7.69s
+   Abs difference: 5.194426e-01 | Raw output: 0.869743
+
+[33/317] Problem ID: 133 | Source: Handbook_of_Special_Functions_in_page_206
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11031).
+
+[34/317] Problem ID: 134 | Source: Handbook_of_Special_Functions_in_page_111
+-> Incorrect | Pred: 3.8757846 vs Ref: 4.4428829 | Thinking chars: 1559 | Time: 5.42s
+   Abs difference: 5.670984e-01 | Raw output: (pi**3)/8
+
+[35/317] Problem ID: 135 | Source: Handbook_of_Special_Functions_in_page_111
+-> Incorrect | Pred: 1.0471976 vs Ref: 2.3561945 | Thinking chars: 4957 | Time: 13.06s
+   Abs difference: 1.308997e+00 | Raw output: pi/3
+
+[36/317] Problem ID: 136 | Source: Handbook_of_Special_Functions_in_page_111
+-> Incorrect | Pred: 1.9378923 vs Ref: 2.7012878 | Thinking chars: 1626 | Time: 4.89s
+   Abs difference: 7.633955e-01 | Raw output: pi**3 / 16
+
+[37/317] Problem ID: 137 | Source: Handbook_of_Special_Functions_in_page_111
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11433).
+
+[38/317] Problem ID: 138 | Source: Handbook_of_Special_Functions_in_page_211
+-> Incorrect | Pred: -0.395628 vs Ref: 13.541909 | Thinking chars: 1773 | Time: 5.17s
+   Abs difference: 1.393754e+01 | Raw output: -0.395628
+
+[39/317] Problem ID: 139 | Source: Handbook_of_Special_Functions_in_page_211
+-> ERROR: Cannot convert expression to float
+
+[40/317] Problem ID: 140 | Source: Handbook_of_Special_Functions_in_page_211
+-> ERROR: Sympify of expression 'could not parse 'sympy.N(16/3 - 4*E**2 + 8*pi)**(-1)}'' failed, because of exception being raised:
+SyntaxError: unmatched '}' (<string>, line 1)
+
+[41/317] Problem ID: 141 | Source: Handbook_of_Special_Functions_in_page_211
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10670).
+
+[42/317] Problem ID: 142 | Source: Handbook_of_Special_Functions_in_page_211
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13870).
+
+[43/317] Problem ID: 143 | Source: Handbook_of_Special_Functions_in_page_211
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12890).
+
+[44/317] Problem ID: 144 | Source: Handbook_of_Special_Functions_in_page_211
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12812).
+
+[45/317] Problem ID: 145 | Source: Handbook_of_Special_Functions_in_page_211
+-> ERROR: Invalid limits given: (acos(x)*besseli(1, 2*x)/x, (x, 0, 1))
+
+[46/317] Problem ID: 146 | Source: Handbook_of_Special_Functions_in_page_266
+-> Incorrect | Pred: -1.2337006 vs Ref: 5.2341482 | Thinking chars: 2976 | Time: 7.49s
+   Abs difference: 6.467849e+00 | Raw output: -pi**2/8
+
+[47/317] Problem ID: 147 | Source: Handbook_of_Special_Functions_in_page_266
+-> Incorrect | Pred: 3.8757846 vs Ref: 6.9788642 | Thinking chars: 1455 | Time: 4.01s
+   Abs difference: 3.103080e+00 | Raw output: (pi**3)/8
+
+[48/317] Problem ID: 148 | Source: Handbook_of_Special_Functions_in_page_266
+-> Incorrect | Pred: 1.2337006 vs Ref: 46.581129 | Thinking chars: 3816 | Time: 10.46s
+   Abs difference: 4.534743e+01 | Raw output: (pi**2/4)*(gamma(1)/gamma(3))
+
+[49/317] Problem ID: 149 | Source: Handbook_of_Special_Functions_in_page_266
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12959).
+
+[50/317] Problem ID: 150 | Source: Handbook_of_Special_Functions_in_page_266
+-> Incorrect | Pred: -0.92703734 vs Ref: 5.8765706 | Thinking chars: 1402 | Time: 4.96s
+   Abs difference: 6.803608e+00 | Raw output: -2**(-1/4) * pi / beta(3/8, 7/8)
+
+[51/317] Problem ID: 151 | Source: Handbook_of_Special_Functions_in_page_266
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9931).
+
+[52/317] Problem ID: 152 | Source: Handbook_of_Special_Functions_in_page_266
+-> Incorrect | Pred: 0.61685028 vs Ref: 2.9255449 | Thinking chars: 2366 | Time: 6.31s
+   Abs difference: 2.308695e+00 | Raw output: pi**2/16
+
+[53/317] Problem ID: 153 | Source: Handbook_of_Special_Functions_in_page_150
+-> Incorrect | Pred: -4.9348022 vs Ref: 0.20730075 | Thinking chars: 1572 | Time: 5.42s
+   Abs difference: 5.142103e+00 | Raw output: -0.5*pi**2
+
+[54/317] Problem ID: 154 | Source: Handbook_of_Special_Functions_in_page_150
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11093).
+
+[55/317] Problem ID: 155 | Source: Handbook_of_Special_Functions_in_page_150
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11664).
+
+[56/317] Problem ID: 156 | Source: Handbook_of_Special_Functions_in_page_150
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11435).
+
+[57/317] Problem ID: 157 | Source: Handbook_of_Special_Functions_in_page_249
+-> Incorrect | Pred: -466.64099 vs Ref: 16.564661 | Thinking chars: 1311 | Time: 4.64s
+   Abs difference: 4.832056e+02 | Raw output: -64*sqrt(2)*pi**3/9 - 105*pi/sqrt(pi) + 80*log(2)/sqrt(pi)
+
+[58/317] Problem ID: 158 | Source: Handbook_of_Special_Functions_in_page_249
+-> Incorrect | Pred: 0 vs Ref: 1 | Thinking chars: 1425 | Time: 5.82s
+   Abs difference: 1.000000e+00 | Raw output: 0
+
+[59/317] Problem ID: 159 | Source: Handbook_of_Special_Functions_in_page_121
+-> ERROR: Cannot convert expression to float
+
+[60/317] Problem ID: 160 | Source: Handbook_of_Special_Functions_in_page_121
+-> ERROR: Wynik ma niezerową część urojoną: (76.04325750408542+0.7774876715694962j)
+
+[61/317] Problem ID: 161 | Source: Handbook_of_Special_Functions_in_page_121
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9781).
+
+[62/317] Problem ID: 162 | Source: Handbook_of_Special_Functions_in_page_121
+-> Incorrect | Pred: 5.8762599 vs Ref: 5.6249825 | Thinking chars: 7668 | Time: 19.38s
+   Abs difference: 2.512774e-01 | Raw output: (pi**2/8 + pi*sqrt(pi)/6)*exp(1)
+
+[63/317] Problem ID: 163 | Source: Handbook_of_Special_Functions_in_page_121
+-> Incorrect | Pred: -1.1867236 vs Ref: 62.012553 | Thinking chars: 1132 | Time: 4.98s
+   Abs difference: 6.319928e+01 | Raw output: pi**2/4 - pi**3/(6*sqrt(2))
+
+[64/317] Problem ID: 164 | Source: Handbook_of_Special_Functions_in_page_121
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9624).
+
+[65/317] Problem ID: 165 | Source: Handbook_of_Special_Functions_in_page_121
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11646).
+
+[66/317] Problem ID: 166 | Source: Handbook_of_Special_Functions_in_page_121
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11153).
+
+[67/317] Problem ID: 167 | Source: Handbook_of_Special_Functions_in_page_270
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11948).
+
+[68/317] Problem ID: 168 | Source: Handbook_of_Special_Functions_in_page_270
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11720).
+
+[69/317] Problem ID: 169 | Source: Handbook_of_Special_Functions_in_page_270
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13720).
+
+[70/317] Problem ID: 170 | Source: Handbook_of_Special_Functions_in_page_270
+-> ERROR: 'Symbol' object has no attribute 'N'
+
+[71/317] Problem ID: 171 | Source: Handbook_of_Special_Functions_in_page_270
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=15927).
+
+[72/317] Problem ID: 172 | Source: Handbook_of_Special_Functions_in_page_270
+-> Incorrect | Pred: -0.86685028 vs Ref: 0.23551079 | Thinking chars: 3892 | Time: 9.27s
+   Abs difference: 1.102361e+00 | Raw output: -1/4 - pi**2/8 + 3*zeta(2)/8
+
+[73/317] Problem ID: 173 | Source: Handbook_of_Special_Functions_in_page_173
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11803).
+
+[74/317] Problem ID: 174 | Source: Handbook_of_Special_Functions_in_page_173
+-> Incorrect | Pred: -1.2337006 vs Ref: 0.049876461 | Thinking chars: 1970 | Time: 6.51s
+   Abs difference: 1.283577e+00 | Raw output: -pi**2/8
+
+[75/317] Problem ID: 175 | Source: Handbook_of_Special_Functions_in_page_173
+-> ERROR: unsupported operand type(s) for ** or pow(): 'FunctionClass' and 'Integer'
+
+[76/317] Problem ID: 176 | Source: Handbook_of_Special_Functions_in_page_173
+-> Incorrect | Pred: 3.2898681 vs Ref: 0.42042778 | Thinking chars: 2889 | Time: 8.05s
+   Abs difference: 2.869440e+00 | Raw output: pi**2/3
+
+[77/317] Problem ID: 177 | Source: Handbook_of_Special_Functions_in_page_275
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13182).
+
+[78/317] Problem ID: 178 | Source: Handbook_of_Special_Functions_in_page_201
+-> Incorrect | Pred: -0.413962 vs Ref: 0.04898715 | Thinking chars: 9842 | Time: 21.32s
+   Abs difference: 4.629491e-01 | Raw output: -0.413962
+
+[79/317] Problem ID: 179 | Source: Handbook_of_Special_Functions_in_page_201
+-> Incorrect | Pred: 0 vs Ref: 0.093874461 | Thinking chars: 3774 | Time: 7.53s
+   Abs difference: 9.387446e-02 | Raw output: 0
+
+[80/317] Problem ID: 180 | Source: Handbook_of_Special_Functions_in_page_201
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10038).
+
+[81/317] Problem ID: 181 | Source: Handbook_of_Special_Functions_in_page_201
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10524).
+
+[82/317] Problem ID: 182 | Source: Handbook_of_Special_Functions_in_page_169
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12456).
+
+[83/317] Problem ID: 183 | Source: Handbook_of_Special_Functions_in_page_169
+-> Incorrect | Pred: -0.52359878 vs Ref: 1.1338287 | Thinking chars: 2041 | Time: 4.86s
+   Abs difference: 1.657427e+00 | Raw output: -0.5*pi + 2*atan(1/sqrt(3))
+
+[84/317] Problem ID: 184 | Source: Handbook_of_Special_Functions_in_page_169
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10785).
+
+[85/317] Problem ID: 185 | Source: Handbook_of_Special_Functions_in_page_169
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11371).
+
+[86/317] Problem ID: 186 | Source: Handbook_of_Special_Functions_in_page_169
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12708).
+
+[87/317] Problem ID: 187 | Source: Handbook_of_Special_Functions_in_page_169
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14406).
+
+[88/317] Problem ID: 188 | Source: Handbook_of_Special_Functions_in_page_169
+-> Incorrect | Pred: 527.96905 vs Ref: 0.017612807 | Thinking chars: 1182 | Time: 4.21s
+   Abs difference: 5.279514e+02 | Raw output: -pi**2/8 + atan(1)**(-13 - sqrt(168))
+
+[89/317] Problem ID: 189 | Source: Handbook_of_Special_Functions_in_page_169
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {'result_python': 'pi**2/8'}
+
+[90/317] Problem ID: 190 | Source: Handbook_of_Special_Functions_in_page_167
+-> Incorrect | Pred: -0.67164513 vs Ref: 0.068603976 | Thinking chars: 3047 | Time: 9.15s
+   Abs difference: 7.402491e-01 | Raw output: -pi**2/16 - log(4)/8 + pi*log(3)**2/32
+
+[91/317] Problem ID: 191 | Source: Handbook_of_Special_Functions_in_page_167
+-> Incorrect | Pred: -0.33215787 vs Ref: 0.068603976 | Thinking chars: 1475 | Time: 4.02s
+   Abs difference: 4.007618e-01 | Raw output: -pi**2/8 + 3*zeta(3)/4
+
+[92/317] Problem ID: 192 | Source: Handbook_of_Special_Functions_in_page_167
+-> ERROR: unsupported operand type(s) for ** or pow(): 'FunctionClass' and 'Pow'
+
+[93/317] Problem ID: 193 | Source: Handbook_of_Special_Functions_in_page_167
+-> Incorrect | Pred: -1.782733 vs Ref: 0.35403498 | Thinking chars: 1969 | Time: 5.41s
+   Abs difference: 2.136768e+00 | Raw output: -pi**2/4 + log(1+sqrt(2))**3
+
+[94/317] Problem ID: 194 | Source: Handbook_of_Special_Functions_in_page_167
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9969).
+
+[95/317] Problem ID: 195 | Source: Handbook_of_Special_Functions_in_page_167
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9912).
+
+[96/317] Problem ID: 196 | Source: Handbook_of_Special_Functions_in_page_167
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12935).
+
+[97/317] Problem ID: 197 | Source: Handbook_of_Special_Functions_in_page_167
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9688).
+
+[98/317] Problem ID: 198 | Source: Handbook_of_Special_Functions_in_page_124
+-> Incorrect | Pred: 1.9378923 vs Ref: 1.6447521 | Thinking chars: 1447 | Time: 3.93s
+   Abs difference: 2.931402e-01 | Raw output: pi**3/16
+
+[99/317] Problem ID: 199 | Source: Handbook_of_Special_Functions_in_page_124
+-> Incorrect | Pred: 0.78935614 vs Ref: 2.5264748 | Thinking chars: 11035 | Time: 25.73s
+   Abs difference: 1.737119e+00 | Raw output: 0.789356142
+
+[100/317] Problem ID: 200 | Source: Handbook_of_Special_Functions_in_page_124
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12203).
+
+[101/317] Problem ID: 201 | Source: Handbook_of_Special_Functions_in_page_124
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12194).
+
+[102/317] Problem ID: 202 | Source: Handbook_of_Special_Functions_in_page_124
+-> Incorrect | Pred: 0 vs Ref: 1.3765279 | Thinking chars: 1788 | Time: 4.75s
+   Abs difference: 1.376528e+00 | Raw output: 0
+
+[103/317] Problem ID: 203 | Source: Handbook_of_Special_Functions_in_page_124
+-> ERROR: Cannot convert expression to float
+
+[104/317] Problem ID: 204 | Source: Handbook_of_Special_Functions_in_page_124
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13202).
+
+[105/317] Problem ID: 205 | Source: Handbook_of_Special_Functions_in_page_124
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12236).
+
+[106/317] Problem ID: 206 | Source: Handbook_of_Special_Functions_in_page_182
+-> Incorrect | Pred: -0.88622693 vs Ref: -1.2136482 | Thinking chars: 2615 | Time: 7.03s
+   Abs difference: 3.274213e-01 | Raw output: -sqrt(pi)/2
+
+[107/317] Problem ID: 207 | Source: Handbook_of_Special_Functions_in_page_182
+-> Incorrect | Pred: -2.4674011 vs Ref: -0.50270954 | Thinking chars: 1953 | Time: 4.99s
+   Abs difference: 1.964692e+00 | Raw output: -pi**2/4
+
+[108/317] Problem ID: 208 | Source: Handbook_of_Special_Functions_in_page_176
+-> Incorrect | Pred: -1.6264327 vs Ref: 0.1610862 | Thinking chars: 4831 | Time: 13.97s
+   Abs difference: 1.787519e+00 | Raw output: -pi**2/6 + log(2)**3/18
+
+[109/317] Problem ID: 210 | Source: Handbook_of_Special_Functions_in_page_176
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10248).
+
+[110/317] Problem ID: 211 | Source: Handbook_of_Special_Functions_in_page_125
+-> ERROR: Cannot convert expression to float
+
+[111/317] Problem ID: 212 | Source: Handbook_of_Special_Functions_in_page_125
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11122).
+
+[112/317] Problem ID: 213 | Source: Handbook_of_Special_Functions_in_page_125
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10919).
+
+[113/317] Problem ID: 214 | Source: Handbook_of_Special_Functions_in_page_125
+-> Incorrect | Pred: 0.84870488 vs Ref: 2.4039394 | Thinking chars: 3836 | Time: 10.37s
+   Abs difference: 1.555235e+00 | Raw output: pi/2 * cos(1) + 0
+
+[114/317] Problem ID: 215 | Source: Handbook_of_Special_Functions_in_page_125
+-> Incorrect | Pred: 0.831625 vs Ref: 1.5693889 | Thinking chars: 1620 | Time: 5.31s
+   Abs difference: 7.377639e-01 | Raw output: 0.831625
+
+[115/317] Problem ID: 216 | Source: Handbook_of_Special_Functions_in_page_125
+-> Incorrect | Pred: 0 vs Ref: 3.6590906 | Thinking chars: 1966 | Time: 7.52s
+   Abs difference: 3.659091e+00 | Raw output: 0
+
+[116/317] Problem ID: 217 | Source: Handbook_of_Special_Functions_in_page_125
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10598).
+
+[117/317] Problem ID: 218 | Source: Handbook_of_Special_Functions_in_page_125
+-> ERROR: unsupported operand type(s) for ** or pow(): 'FunctionClass' and 'Integer'
+
+[118/317] Problem ID: 219 | Source: Handbook_of_Special_Functions_in_page_125
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11672).
+
+[119/317] Problem ID: 220 | Source: Handbook_of_Special_Functions_in_page_235
+-> Incorrect | Pred: -3.0775995 vs Ref: 2.7768018 | Thinking chars: 1654 | Time: 6.03s
+   Abs difference: 5.854401e+00 | Raw output: -0.5*(pi + log(3)/sqrt(6) + sqrt(6)*atan(sqrt(3)))
+
+[120/317] Problem ID: 221 | Source: Handbook_of_Special_Functions_in_page_235
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9154).
+
+[121/317] Problem ID: 222 | Source: Handbook_of_Special_Functions_in_page_235
+-> Incorrect | Pred: 1.9078921 vs Ref: 9.424778 | Thinking chars: 1819 | Time: 4.90s
+   Abs difference: 7.516886e+00 | Raw output: -pi**2/8 + pi
+
+[122/317] Problem ID: 223 | Source: Handbook_of_Special_Functions_in_page_151
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=18601).
+
+[123/317] Problem ID: 224 | Source: Handbook_of_Special_Functions_in_page_151
+-> Incorrect | Pred: -3.2898681 vs Ref: 1.3483831 | Thinking chars: 1971 | Time: 5.61s
+   Abs difference: 4.638251e+00 | Raw output: -pi**2/3
+
+[124/317] Problem ID: 225 | Source: Handbook_of_Special_Functions_in_page_151
+-> Incorrect | Pred: -2.4041138 vs Ref: 6.8410885 | Thinking chars: 1985 | Time: 5.16s
+   Abs difference: 9.245202e+00 | Raw output: -2*zeta(3)
+
+[125/317] Problem ID: 226 | Source: Handbook_of_Special_Functions_in_page_151
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10775).
+
+[126/317] Problem ID: 227 | Source: Handbook_of_Special_Functions_in_page_151
+-> Incorrect | Pred: -3.0440341 vs Ref: 0.23136261 | Thinking chars: 1525 | Time: 4.38s
+   Abs difference: 3.275397e+00 | Raw output: -pi**4/32
+
+[127/317] Problem ID: 228 | Source: Handbook_of_Special_Functions_in_page_151
+-> Incorrect | Pred: 0.37588489 vs Ref: 0.23136261 | Thinking chars: 2361 | Time: 7.25s
+   Abs difference: 1.445223e-01 | Raw output: -pi**2/18 + 4*log(2)/3
+
+[128/317] Problem ID: 229 | Source: Handbook_of_Special_Functions_in_page_151
+-> Incorrect | Pred: -3.2226072 vs Ref: 0.10029434 | Thinking chars: 1569 | Time: 4.45s
+   Abs difference: 3.322902e+00 | Raw output: -0.5*pi**4/16 + pi*log(2)/8 - 3*zeta(3)/8
+
+[129/317] Problem ID: 230 | Source: Handbook_of_Special_Functions_in_page_151
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {
+    "result_python": "N(0.28471569)"
+
+[130/317] Problem ID: 231 | Source: Handbook_of_Special_Functions_in_page_115
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11034).
+
+[131/317] Problem ID: 232 | Source: Handbook_of_Special_Functions_in_page_115
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9920).
+
+[132/317] Problem ID: 233 | Source: Handbook_of_Special_Functions_in_page_115
+-> Incorrect | Pred: -0.88622693 vs Ref: 6.9999189 | Thinking chars: 2532 | Time: 7.02s
+   Abs difference: 7.886146e+00 | Raw output: -2*sqrt(pi)*gamma(5/4)/gamma(1/4)
+
+[133/317] Problem ID: 234 | Source: Handbook_of_Special_Functions_in_page_115
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14135).
+
+[134/317] Problem ID: 235 | Source: Handbook_of_Special_Functions_in_page_115
+-> Incorrect | Pred: 1.3333333 vs Ref: 5.1415927 | Thinking chars: 1879 | Time: 5.38s
+   Abs difference: 3.808259e+00 | Raw output: 4/3
+
+[135/317] Problem ID: 236 | Source: Handbook_of_Special_Functions_in_page_115
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10338).
+
+[136/317] Problem ID: 237 | Source: Handbook_of_Special_Functions_in_page_115
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11725).
+
+[137/317] Problem ID: 238 | Source: Handbook_of_Special_Functions_in_page_115
+-> Incorrect | Pred: 2.8129465 vs Ref: 6.6666667 | Thinking chars: 1417 | Time: 4.50s
+   Abs difference: 3.853720e+00 | Raw output: (2*pi**3)/(9*sqrt(6))
+
+[138/317] Problem ID: 239 | Source: Handbook_of_Special_Functions_in_page_216
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {
+    "result_python": "-0.653479286"
+
+[139/317] Problem ID: 240 | Source: Handbook_of_Special_Functions_in_page_216
+-> Incorrect | Pred: 1.0794415 vs Ref: 0.10692855 | Thinking chars: 2310 | Time: 5.87s
+   Abs difference: 9.725130e-01 | Raw output: -1 + 3*log(2)
+
+[140/317] Problem ID: 241 | Source: Handbook_of_Special_Functions_in_page_216
+-> Incorrect | Pred: -0.49365129 vs Ref: 0.010271625 | Thinking chars: 3080 | Time: 6.80s
+   Abs difference: 5.039229e-01 | Raw output: -0.49365128977222
+
+[141/317] Problem ID: 242 | Source: Handbook_of_Special_Functions_in_page_216
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12516).
+
+[142/317] Problem ID: 243 | Source: Handbook_of_Special_Functions_in_page_216
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12350).
+
+[143/317] Problem ID: 244 | Source: Handbook_of_Special_Functions_in_page_216
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12397).
+
+[144/317] Problem ID: 245 | Source: Handbook_of_Special_Functions_in_page_216
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11844).
+
+[145/317] Problem ID: 246 | Source: Handbook_of_Special_Functions_in_page_216
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11430).
+
+[146/317] Problem ID: 247 | Source: Handbook_of_Special_Functions_in_page_216
+-> Incorrect | Pred: 0 vs Ref: 0.32544995 | Thinking chars: 3015 | Time: 7.90s
+   Abs difference: 3.254499e-01 | Raw output: 0
+
+[147/317] Problem ID: 248 | Source: Handbook_of_Special_Functions_in_page_170
+-> Incorrect | Pred: 0.015174515 vs Ref: 2.0213615 | Thinking chars: 3962 | Time: 9.82s
+   Abs difference: 2.006187e+00 | Raw output: -pi**2/16 + pi*log(5)/8
+
+[148/317] Problem ID: 249 | Source: Handbook_of_Special_Functions_in_page_170
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10184).
+
+[149/317] Problem ID: 250 | Source: Handbook_of_Special_Functions_in_page_170
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11193).
+
+[150/317] Problem ID: 251 | Source: Handbook_of_Special_Functions_in_page_170
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11224).
+
+[151/317] Problem ID: 252 | Source: Handbook_of_Special_Functions_in_page_170
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10759).
+
+[152/317] Problem ID: 254 | Source: Handbook_of_Special_Functions_in_page_248
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9780).
+
+[153/317] Problem ID: 255 | Source: Handbook_of_Special_Functions_in_page_248
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11170).
+
+[154/317] Problem ID: 256 | Source: Handbook_of_Special_Functions_in_page_248
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12223).
+
+[155/317] Problem ID: 258 | Source: Handbook_of_Special_Functions_in_page_248
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {
+    "result_python": "-40218976*pi**(3/2)*EulerGamma + 53501696*log(2) - 1756874*sqrt(pi)"
+
+[156/317] Problem ID: 259 | Source: Handbook_of_Special_Functions_in_page_144
+-> Incorrect | Pred: -1.41584 vs Ref: 0.24273943 | Thinking chars: 1281 | Time: 4.41s
+   Abs difference: 1.658579e+00 | Raw output: -E**2/4 + pi*log(3)/8
+
+[157/317] Problem ID: 260 | Source: Handbook_of_Special_Functions_in_page_144
+-> Incorrect | Pred: -0.35146729 vs Ref: 1.4447091 | Thinking chars: 1988 | Time: 6.44s
+   Abs difference: 1.796176e+00 | Raw output: -0.351467289
+
+[158/317] Problem ID: 261 | Source: Handbook_of_Special_Functions_in_page_200
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9161).
+
+[159/317] Problem ID: 262 | Source: Handbook_of_Special_Functions_in_page_200
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10457).
+
+[160/317] Problem ID: 264 | Source: Handbook_of_Special_Functions_in_page_200
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9453).
+
+[161/317] Problem ID: 265 | Source: Handbook_of_Special_Functions_in_page_200
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11339).
+
+[162/317] Problem ID: 266 | Source: Handbook_of_Special_Functions_in_page_200
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {
+    "result_python": "-0.184732956"
+
+[163/317] Problem ID: 267 | Source: Handbook_of_Special_Functions_in_page_177
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11310).
+
+[164/317] Problem ID: 268 | Source: Handbook_of_Special_Functions_in_page_177
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10344).
+
+[165/317] Problem ID: 269 | Source: Handbook_of_Special_Functions_in_page_177
+-> Incorrect | Pred: 0.0533718 vs Ref: 0.038689122 | Thinking chars: 2059 | Time: 6.33s
+   Abs difference: 1.468268e-02 | Raw output: -0.157946389396652 - 0.2*pi**2/9 + pi**3/72
+
+[166/317] Problem ID: 270 | Source: Handbook_of_Special_Functions_in_page_177
+-> Incorrect | Pred: -0.12345679 vs Ref: 0.02169438 | Thinking chars: 2293 | Time: 6.16s
+   Abs difference: 1.451512e-01 | Raw output: -0.123456789
+
+[167/317] Problem ID: 271 | Source: Handbook_of_Special_Functions_in_page_177
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10300).
+
+[168/317] Problem ID: 272 | Source: Handbook_of_Special_Functions_in_page_177
+-> Incorrect | Pred: -0.34465201 vs Ref: 0.35497979 | Thinking chars: 1849 | Time: 5.60s
+   Abs difference: 6.996318e-01 | Raw output: -pi**2/16 + pi*log(2)/8
+
+[169/317] Problem ID: 273 | Source: Handbook_of_Special_Functions_in_page_177
+-> Incorrect | Pred: -0.39564781 vs Ref: 0.12721579 | Thinking chars: 2366 | Time: 6.20s
+   Abs difference: 5.228636e-01 | Raw output: -0.395647812
+
+[170/317] Problem ID: 274 | Source: Handbook_of_Special_Functions_in_page_120
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11093).
+
+[171/317] Problem ID: 275 | Source: Handbook_of_Special_Functions_in_page_120
+-> Incorrect | Pred: -113.25453 vs Ref: 22.569288 | Thinking chars: 11430 | Time: 27.50s
+   Abs difference: 1.358238e+02 | Raw output: -sqrt(3)*besseli(-1/2, 6) + sqrt(3)/pi
+
+[172/317] Problem ID: 276 | Source: Handbook_of_Special_Functions_in_page_120
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10931).
+
+[173/317] Problem ID: 277 | Source: Handbook_of_Special_Functions_in_page_120
+-> Incorrect | Pred: 2.3504024 vs Ref: 2.2019636 | Thinking chars: 5160 | Time: 14.72s
+   Abs difference: 1.484388e-01 | Raw output: 2*sinh(1)
+
+[174/317] Problem ID: 278 | Source: Handbook_of_Special_Functions_in_page_120
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11092).
+
+[175/317] Problem ID: 279 | Source: Handbook_of_Special_Functions_in_page_120
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11406).
+
+[176/317] Problem ID: 280 | Source: Handbook_of_Special_Functions_in_page_120
+-> Incorrect | Pred: 806.85759 vs Ref: 16.837044 | Thinking chars: 3277 | Time: 11.47s
+   Abs difference: 7.900205e+02 | Raw output: 4*gamma(0.75)**2/beta(0.75,0.75)/sqrt(pi)*exp(6)
+
+[177/317] Problem ID: 281 | Source: Handbook_of_Special_Functions_in_page_120
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9768).
+
+[178/317] Problem ID: 282 | Source: Handbook_of_Special_Functions_in_page_120
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9265).
+
+[179/317] Problem ID: 283 | Source: Handbook_of_Special_Functions_in_page_166
+-> Incorrect | Pred: -0.19974451 vs Ref: 0.46533659 | Thinking chars: 4245 | Time: 12.16s
+   Abs difference: 6.650811e-01 | Raw output: -pi/4*atan(1) + pi**2/8 - 3*pi*log(2)/8
+
+[180/317] Problem ID: 284 | Source: Handbook_of_Special_Functions_in_page_166
+-> Incorrect | Pred: 1.5352162 vs Ref: 0.32298205 | Thinking chars: 2880 | Time: 9.05s
+   Abs difference: 1.212234e+00 | Raw output: -pi**2/8 + pi*atanh(sqrt(2)/2)
+
+[181/317] Problem ID: 285 | Source: Handbook_of_Special_Functions_in_page_166
+-> Incorrect | Pred: -11.987306 vs Ref: 0.11070724 | Thinking chars: 1643 | Time: 5.11s
+   Abs difference: 1.209801e+01 | Raw output: -1/3*pi**2 + 4*log(2)/9 - pi*sqrt(5)*log(sqrt(5)+E) + sqrt(5)
+
+[182/317] Problem ID: 286 | Source: Handbook_of_Special_Functions_in_page_166
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11414).
+
+[183/317] Problem ID: 287 | Source: Handbook_of_Special_Functions_in_page_166
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {
+    "result_python": "-pi**2/18 + log(2)**3/6 - pi*log**(2)/4"
+
+[184/317] Problem ID: 288 | Source: Handbook_of_Special_Functions_in_page_166
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12093).
+
+[185/317] Problem ID: 289 | Source: Handbook_of_Special_Functions_in_page_278
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13886).
+
+[186/317] Problem ID: 290 | Source: Handbook_of_Special_Functions_in_page_278
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13668).
+
+[187/317] Problem ID: 291 | Source: Handbook_of_Special_Functions_in_page_278
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14483).
+
+[188/317] Problem ID: 292 | Source: Handbook_of_Special_Functions_in_page_278
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13786).
+
+[189/317] Problem ID: 293 | Source: Handbook_of_Special_Functions_in_page_278
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13077).
+
+[190/317] Problem ID: 294 | Source: Handbook_of_Special_Functions_in_page_299
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13878).
+
+[191/317] Problem ID: 295 | Source: Handbook_of_Special_Functions_in_page_299
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13304).
+
+[192/317] Problem ID: 296 | Source: Handbook_of_Special_Functions_in_page_299
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14604).
+
+[193/317] Problem ID: 297 | Source: Handbook_of_Special_Functions_in_page_299
+-> Incorrect | Pred: 13.159473 vs Ref: 0.57973484 | Thinking chars: 6689 | Time: 11.57s
+   Abs difference: 1.257974e+01 | Raw output: 4*pi**2/3
+
+[194/317] Problem ID: 298 | Source: Handbook_of_Special_Functions_in_page_299
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {
+    "result_python": "-0.6875*erf(1/2)*exp(-1)/sqrt(pi) + 0.9375"
+
+[195/317] Problem ID: 299 | Source: Handbook_of_Special_Functions_in_page_155
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9628).
+
+[196/317] Problem ID: 300 | Source: Handbook_of_Special_Functions_in_page_155
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12999).
+
+[197/317] Problem ID: 301 | Source: Handbook_of_Special_Functions_in_page_155
+-> Incorrect | Pred: -0.864971 vs Ref: 0.028310687 | Thinking chars: 1333 | Time: 4.21s
+   Abs difference: 8.932817e-01 | Raw output: -0.864971
+
+[198/317] Problem ID: 302 | Source: Handbook_of_Special_Functions_in_page_155
+-> Incorrect | Pred: -2.7058081 vs Ref: 0.015876171 | Thinking chars: 1387 | Time: 4.86s
+   Abs difference: 2.721684e+00 | Raw output: -pi**4/36
+
+[199/317] Problem ID: 303 | Source: Handbook_of_Special_Functions_in_page_155
+-> ERROR: Wynik ma niezerową część urojoną: (1.4494370586694405+0.49746494070592967j)
+
+[200/317] Problem ID: 304 | Source: Handbook_of_Special_Functions_in_page_155
+-> Incorrect | Pred: -0.11442606 vs Ref: 0.10038111 | Thinking chars: 3005 | Time: 9.78s
+   Abs difference: 2.148072e-01 | Raw output: (2**(3/2)/15)*(pi**2 - 6*log(4 + sqrt(3)))
+
+[201/317] Problem ID: 305 | Source: Handbook_of_Special_Functions_in_page_136
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13950).
+
+[202/317] Problem ID: 306 | Source: Handbook_of_Special_Functions_in_page_136
+-> Incorrect | Pred: 1.4674011 vs Ref: 1.8319312 | Thinking chars: 3007 | Time: 8.79s
+   Abs difference: 3.645301e-01 | Raw output: pi**2/4 - 1
+
+[203/317] Problem ID: 307 | Source: Handbook_of_Special_Functions_in_page_136
+-> Incorrect | Pred: 2.4674011 vs Ref: 1.8319312 | Thinking chars: 7624 | Time: 19.37s
+   Abs difference: 6.354699e-01 | Raw output: pi**2/4
+
+[204/317] Problem ID: 308 | Source: Handbook_of_Special_Functions_in_page_136
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10665).
+
+[205/317] Problem ID: 309 | Source: Handbook_of_Special_Functions_in_page_136
+-> Incorrect | Pred: -1.7627472 vs Ref: 2.5907419 | Thinking chars: 1496 | Time: 4.55s
+   Abs difference: 4.353489e+00 | Raw output: -2*log(1+sqrt(2))
+
+[206/317] Problem ID: 310 | Source: Handbook_of_Special_Functions_in_page_302
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=21050).
+
+[207/317] Problem ID: 311 | Source: Handbook_of_Special_Functions_in_page_302
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14028).
+
+[208/317] Problem ID: 312 | Source: Handbook_of_Special_Functions_in_page_302
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14884).
+
+[209/317] Problem ID: 313 | Source: Handbook_of_Special_Functions_in_page_302
+-> ERROR: Nie znaleziono poprawnego obiektu JSON z kluczem 'result_python': {
+    "result_python": "-pi**2/4"
+
+[210/317] Problem ID: 314 | Source: Handbook_of_Special_Functions_in_page_148
+-> Incorrect | Pred: 0.23629892 vs Ref: -1.009811 | Thinking chars: 6245 | Time: 18.60s
+   Abs difference: 1.246110e+00 | Raw output: -polylog(3, -0.5)*2**(-1)
+
+[211/317] Problem ID: 315 | Source: Handbook_of_Special_Functions_in_page_148
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9396).
+
+[212/317] Problem ID: 316 | Source: Handbook_of_Special_Functions_in_page_148
+-> Incorrect | Pred: -1.7627472 vs Ref: 3.9494704 | Thinking chars: 2807 | Time: 7.39s
+   Abs difference: 5.712218e+00 | Raw output: -2*log(1+sqrt(2))
+
+[213/317] Problem ID: 317 | Source: Handbook_of_Special_Functions_in_page_148
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10489).
+
+[214/317] Problem ID: 318 | Source: Handbook_of_Special_Functions_in_page_296
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14031).
+
+[215/317] Problem ID: 319 | Source: Handbook_of_Special_Functions_in_page_296
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13902).
+
+[216/317] Problem ID: 320 | Source: Handbook_of_Special_Functions_in_page_296
+-> Incorrect | Pred: -1.2337006 vs Ref: 2.6673551 | Thinking chars: 1783 | Time: 4.47s
+   Abs difference: 3.901056e+00 | Raw output: -pi**2/8
+
+[217/317] Problem ID: 321 | Source: Handbook_of_Special_Functions_in_page_296
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=17052).
+
+[218/317] Problem ID: 401 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> Incorrect | Pred: 1.2337006 vs Ref: 0.5 | Thinking chars: 9518 | Time: 22.59s
+   Abs difference: 7.337006e-01 | Raw output: pi**2/8
+
+[219/317] Problem ID: 402 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11677).
+
+[220/317] Problem ID: 403 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9578).
+
+[221/317] Problem ID: 404 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> Incorrect | Pred: -0.01 vs Ref: 0 | Thinking chars: 1523 | Time: 4.50s
+   Abs difference: 1.000000e-02 | Raw output: -1/20 + 1/25
+
+[222/317] Problem ID: 405 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12013).
+
+[223/317] Problem ID: 406 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> Incorrect | Pred: 1.2456493 vs Ref: 0.74946887 | Thinking chars: 1733 | Time: 4.81s
+   Abs difference: 4.961805e-01 | Raw output: (2*sqrt(3)*elliptic_f(pi/6, 1/4) - sqrt(3)/2 + pi/(8*sqrt(2)))
+
+[224/317] Problem ID: 407 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> Incorrect | Pred: -1.5708 vs Ref: 0.52359878 | Thinking chars: 4914 | Time: 12.10s
+   Abs difference: 2.094399e+00 | Raw output: -1.5708
+
+[225/317] Problem ID: 408 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=8985).
+
+[226/317] Problem ID: 409 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10601).
+
+[227/317] Problem ID: 410 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_2a26d24a9efd4a64b0a3b20dbf21d5a3.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11464).
+
+[228/317] Problem ID: 411 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> Correct | Pred: 1 vs Ref: 1 | Thinking chars: 977 | Time: 3.88s
+
+[229/317] Problem ID: 412 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11825).
+
+[230/317] Problem ID: 413 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> Correct | Pred: 1589.6459 vs Ref: 1589.6459 | Thinking chars: 11758 | Time: 27.69s
+
+[231/317] Problem ID: 414 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> Correct | Pred: 0 vs Ref: 0 | Thinking chars: 3084 | Time: 8.91s
+
+[232/317] Problem ID: 415 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=15294).
+
+[233/317] Problem ID: 416 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12344).
+
+[234/317] Problem ID: 417 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11801).
+
+[235/317] Problem ID: 418 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11293).
+
+[236/317] Problem ID: 419 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> Correct | Pred: 1.6449341 vs Ref: 1.6449341 | Thinking chars: 771 | Time: 2.82s
+
+[237/317] Problem ID: 420 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_c37355e78f43444990a68354a59e5913.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10427).
+
+[238/317] Problem ID: 421 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> Correct | Pred: 0.84147098 vs Ref: 0.84147098 | Thinking chars: 3272 | Time: 7.97s
+
+[239/317] Problem ID: 422 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13133).
+
+[240/317] Problem ID: 423 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> Correct | Pred: 99 vs Ref: 99 | Thinking chars: 1207 | Time: 4.04s
+
+[241/317] Problem ID: 424 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=16724).
+
+[242/317] Problem ID: 425 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9520).
+
+[243/317] Problem ID: 426 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10853).
+
+[244/317] Problem ID: 427 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12096).
+
+[245/317] Problem ID: 428 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14125).
+
+[246/317] Problem ID: 429 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> Correct | Pred: 1.2465324 vs Ref: 1.2465324 | Thinking chars: 2061 | Time: 6.60s
+
+[247/317] Problem ID: 430 | Source: https://www.caltechmathmeet.org/_files/ugd/006423_b889d91ab50047aeb08df411bd5beaff.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10877).
+
+[248/317] Problem ID: 501 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2010_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9817).
+
+[249/317] Problem ID: 502 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2010_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=8609).
+
+[250/317] Problem ID: 503 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2011_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10655).
+
+[251/317] Problem ID: 504 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2011_test.pdf
+-> ERROR: Cannot convert expression to float
+
+[252/317] Problem ID: 505 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2012_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12978).
+
+[253/317] Problem ID: 506 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2012_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11354).
+
+[254/317] Problem ID: 507 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2013_test.pdf
+-> Correct | Pred: 18 vs Ref: 18 | Thinking chars: 1736 | Time: 5.88s
+
+[255/317] Problem ID: 508 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2013_test.pdf
+-> Correct | Pred: 4 vs Ref: 4 | Thinking chars: 961 | Time: 4.08s
+
+[256/317] Problem ID: 509 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2014_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=8543).
+
+[257/317] Problem ID: 510 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2014_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9812).
+
+[258/317] Problem ID: 511 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2015_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14370).
+
+[259/317] Problem ID: 512 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2015_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=14047).
+
+[260/317] Problem ID: 513 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2016_test.pdf
+-> Incorrect | Pred: 535808.17 vs Ref: 113 | Thinking chars: 3238 | Time: 10.33s
+   Abs difference: 5.356952e+05 | Raw output: 1793**2 / 6
+
+[261/317] Problem ID: 514 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2016_test.pdf
+-> Correct | Pred: 0.74010513 vs Ref: 0.74010513 | Thinking chars: 1066 | Time: 4.17s
+
+[262/317] Problem ID: 515 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2017_test.pdf
+-> Correct | Pred: 1 vs Ref: 1 | Thinking chars: 11417 | Time: 30.31s
+
+[263/317] Problem ID: 516 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2017_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9753).
+
+[264/317] Problem ID: 517 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2017_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13095).
+
+[265/317] Problem ID: 518 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2018_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11301).
+
+[266/317] Problem ID: 519 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2018_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13992).
+
+[267/317] Problem ID: 520 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2019_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12221).
+
+[268/317] Problem ID: 521 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2019_test.pdf
+-> Incorrect | Pred: 0.44793987 vs Ref: 1.0986123 | Thinking chars: 2935 | Time: 10.88s
+   Abs difference: 6.506724e-01 | Raw output: (log(3) + log(2)) / 4
+
+[269/317] Problem ID: 522 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2019_test.pdf
+-> Correct | Pred: 0.039446346 vs Ref: 0.039446346 | Thinking chars: 1177 | Time: 4.65s
+
+[270/317] Problem ID: 523 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2020_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13334).
+
+[271/317] Problem ID: 524 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2020_test.pdf
+-> Correct | Pred: 2.097264 vs Ref: 2.097264 | Thinking chars: 1313 | Time: 4.69s
+
+[272/317] Problem ID: 525 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2020_test.pdf
+-> Incorrect | Pred: -0.78655557 vs Ref: 0.5 | Thinking chars: 4842 | Time: 17.46s
+   Abs difference: 1.286556e+00 | Raw output: -asin(1/sqrt(2))/(2*(1/2)) - (-pi/(4*0.5) - 0)/(2*(-pi/6**(-3)))
+
+[273/317] Problem ID: 526 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2022_test.pdf
+-> Correct | Pred: 0.86284807 vs Ref: 0.86284807 | Thinking chars: 1135 | Time: 4.04s
+
+[274/317] Problem ID: 527 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2022_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11871).
+
+[275/317] Problem ID: 528 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2022_test.pdf
+-> ERROR: gamma takes exactly 1 argument (2 given)
+
+[276/317] Problem ID: 529 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2023_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11653).
+
+[277/317] Problem ID: 530 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2023_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=8941).
+
+[278/317] Problem ID: 531 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2023_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=8690).
+
+[279/317] Problem ID: 532 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2024_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11820).
+
+[280/317] Problem ID: 533 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2024_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13492).
+
+[281/317] Problem ID: 534 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2024_test.pdf
+-> Correct | Pred: 3.5449077 vs Ref: 3.5449077 | Thinking chars: 5117 | Time: 15.23s
+
+[282/317] Problem ID: 535 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2025_test.pdf
+-> Correct | Pred: 6.695179 vs Ref: 6.695179 | Thinking chars: 1334 | Time: 5.05s
+
+[283/317] Problem ID: 536 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2025_test.pdf
+-> Correct | Pred: 0 vs Ref: 0 | Thinking chars: 1629 | Time: 6.62s
+
+[284/317] Problem ID: 537 | Source: https://math.mit.edu/~yyao1/pdf/qualifying_round_2025_test.pdf
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=8697).
+
+[285/317] Problem ID: 601 | Source: 2024 Round 1 UK University Integration Bee
+-> ERROR: bad operand type for unary -: 'FunctionClass'
+
+[286/317] Problem ID: 602 | Source: 2024 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10223).
+
+[287/317] Problem ID: 603 | Source: 2024 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9904).
+
+[288/317] Problem ID: 604 | Source: 2024 Round 1 UK University Integration Bee
+-> ERROR: Sympify of expression 'could not parse '-2*I*(Si(1)*sinh(1)-Ci(1)*cos(1)+Ei(I+I)**(-2)*(exp(I)-1)/((I-1.56743*-0.8904)-(I*sqrt(pi/2) * exp(-(I**2 + I)/(2*(I+1))))) - 2*I*(-Si(1)*sinh(1)+Ci(1)*cos(1)+Ei(I+I)**(-2)*(exp(I)-1)/((I-1.56743*-0.8904)-(I*sqrt(pi/2) * exp(-(I**2 + I)/(2*(I+1)))))'' failed, because of exception being raised:
+TokenError: ('unexpected EOF in multi-line statement', (1, 0))
+
+[289/317] Problem ID: 605 | Source: 2024 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11728).
+
+[290/317] Problem ID: 606 | Source: 2024 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=13385).
+
+[291/317] Problem ID: 607 | Source: 2024 Round 1 UK University Integration Bee
+-> Incorrect | Pred: -0.88137359 vs Ref: 1.088793 | Thinking chars: 1717 | Time: 5.01s
+   Abs difference: 1.970167e+00 | Raw output: -log(1 + sqrt(2))
+
+[292/317] Problem ID: 608 | Source: Relay 2023 R2 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=8878).
+
+[293/317] Problem ID: 609 | Source: Relay 2023 R2 UK University Integration Bee
+-> Incorrect | Pred: -5.1677128 vs Ref: -0.57079633 | Thinking chars: 1172 | Time: 3.92s
+   Abs difference: 4.596916e+00 | Raw output: -pi**3/6
+
+[294/317] Problem ID: 610 | Source: 2023_Round_1_UK_University_Integration_Bee
+-> Correct | Pred: 1 vs Ref: 1 | Thinking chars: 1548 | Time: 5.16s
+
+[295/317] Problem ID: 611 | Source: 2023_Round_1_UK_University_Integration_Bee
+-> Correct | Pred: 0.76765175 vs Ref: 0.76765175 | Thinking chars: 978 | Time: 4.48s
+
+[296/317] Problem ID: 612 | Source: 2023_Round_1_UK_University_Integration_Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10189).
+
+[297/317] Problem ID: 613 | Source: 2023_Round_1_UK_University_Integration_Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9652).
+
+[298/317] Problem ID: 614 | Source: 2023_Round_1_UK_University_Integration_Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9362).
+
+[299/317] Problem ID: 615 | Source: 2023_Round_1_UK_University_Integration_Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9228).
+
+[300/317] Problem ID: 616 | Source: 2023_Round_1_UK_University_Integration_Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10568).
+
+[301/317] Problem ID: 617 | Source: 2022 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12007).
+
+[302/317] Problem ID: 618 | Source: 2022 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9102).
+
+[303/317] Problem ID: 619 | Source: 2022 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=12425).
+
+[304/317] Problem ID: 620 | Source: 2022 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9396).
+
+[305/317] Problem ID: 621 | Source: 2022 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10732).
+
+[306/317] Problem ID: 622 | Source: 2022 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9043).
+
+[307/317] Problem ID: 623 | Source: 2022 Round 1 UK University Integration Bee
+-> Incorrect | Pred: 0.026920694 vs Ref: 1.0676291 | Thinking chars: 7353 | Time: 19.20s
+   Abs difference: 1.040708e+00 | Raw output: -pi**2/18 + pi*log(3)/6
+
+[308/317] Problem ID: 624 | Source: 2022 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10155).
+
+[309/317] Problem ID: 625 | Source: 2022 Round 1 UK University Integration Bee
+-> Correct | Pred: 1.1107207 vs Ref: 1.1107207 | Thinking chars: 1590 | Time: 6.13s
+
+[310/317] Problem ID: 626 | Source: 2022 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9810).
+
+[311/317] Problem ID: 627 | Source: 2022 Round 1 UK University Integration Bee
+-> Incorrect | Pred: -0.89511782 vs Ref: 0.13197175 | Thinking chars: 4758 | Time: 14.45s
+   Abs difference: 1.027090e+00 | Raw output: -Ei(1) + log(E)**(-1)
+
+[312/317] Problem ID: 628 | Source: 2022 Round 1 UK University Integration Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=10543).
+
+[313/317] Problem ID: 629 | Source: Relay R2_2022_UK_University_Integration_Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11206).
+
+[314/317] Problem ID: 630 | Source: Relay R2_2022_UK_University_Integration_Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=9937).
+
+[315/317] Problem ID: 631 | Source: Relay R2_2022_UK_University_Integration_Bee
+-> Incorrect | Pred: 0 vs Ref: 0.84147098 | Thinking chars: 10789 | Time: 25.63s
+   Abs difference: 8.414710e-01 | Raw output: (sin(1) + sin(-1))/2
+
+[316/317] Problem ID: 632 | Source: Relay R2_2022_UK_University_Integration_Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=11004).
+
+[317/317] Problem ID: 633 | Source: Relay R2_2022_UK_University_Integration_Bee
+-> ERROR: Przekroczono limit tokenów podczas myślenia (thinking_chars=8541).
+
+============================================================
+EVALUATION SUMMARY (INTEGRALBENCH - THINKING ON)
+============================================================
+Total tasks: 317
+Correct answers: 21
+Incorrect answers: 296
+Accuracy: 6.62%
+Average time: 23.23s
+Total time: 122.75 min
+
+RESULTS BY DIFFICULTY:
+            total  correct  average_time  accuracy_percent
+difficulty                                                
+1.0            32        8     25.492679         25.000000
+2.0            30        7     23.323709         23.333333
+3.0            44        4     26.214825          9.090909
+4.0           150        2     23.789096          1.333333
+5.0            52        0     19.950233          0.000000
+
+============================================================
+EVALUATION FINISHED
+============================================================
